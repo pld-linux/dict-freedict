@@ -2,16 +2,16 @@
 %define      dict1    afr-deu
 %define      dict2    cze-eng
 %define      dict3    dan-eng
-#%define      dict4    deu-eng
+%define      dict4    deu-eng
 %define      dict5    deu-fra
 %define      dict6    deu-ita
 %define      dict7    deu-nld
 %define      dict8    deu-por
-#%define      dict9    eng-deu
+%define      dict9    eng-deu
 %define      dict10    eng-fra
 %define      dict11    eng-hun
 %define      dict12    eng-iri
-%define      dict13    eng-ita
+#%define      dict13    eng-ita
 %define      dict14    eng-lat
 %define      dict15    eng-nld
 %define      dict16    eng-por
@@ -45,8 +45,9 @@
 %define      dict44    tur-deu
 %define      dict45    tur-eng
 %define      dict46    wel-eng
-# removed dict7 dict25 dict29 --undefine's patch.
-%define      dictionaries %{dict1} %{dict2} %{dict3} %{dict5} %{dict6}  %{dict9}  %{dict10} %{dict11} %{dict12} %{dict13} %{dict14} %{dict15} %{dict16} %{dict17} %{dict18} %{dict19} %{dict20} %{dict21} %{dict22} %{dict23} %{dict24} %{dict26} %{dict27} %{dict28} %{dict30} %{dict31} %{dict32} %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38} %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44} %{dict45} %{dict46}
+# removed dict25 dict29 --undefine's patch.
+%define      dictionaries %{dict1} %{dict2} %{dict3} %{dict4} %{dict5} %{dict6} %{dict7} %{dict8} %{dict9} %{dict10} %{dict11} %{dict12} %{dict14} %{dict15} %{dict16} %{dict17} %{dict18} %{dict19} %{dict20} %{dict21} %{dict22} %{dict23} %{dict24} %{dict26} %{dict27} %{dict28} %{dict30} %{dict31} %{dict32} %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38} %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44} %{dict45} %{dict46}
+# and no dict13, as says old custom
 
 Summary:	The Free bilingual dictionaries for dictd
 Summary(pl):	Darmowe dwujêzykowe S³owniki dla dictd
@@ -59,16 +60,16 @@ Source0:	http://www.freedict.de/download/linux/dictmisc.tar.gz
 Source1:    http://freedict.sourceforge.net/download/linux/%{dict1}.tar.gz
 Source2:    http://freedict.sourceforge.net/download/linux/%{dict2}.tar.gz
 Source3:    http://freedict.sourceforge.net/download/linux/%{dict3}.tar.gz
-#Source4:    http://freedict.sourceforge.net/download/linux/%{dict4}.tar.gz
+Source4:    http://freedict.sourceforge.net/download/linux/%{dict4}.tar.gz
 Source5:    http://freedict.sourceforge.net/download/linux/%{dict5}.tar.gz
 Source6:    http://freedict.sourceforge.net/download/linux/%{dict6}.tar.gz
 Source7:    http://freedict.sourceforge.net/download/linux/%{dict7}.tar.gz
 Source8:    http://freedict.sourceforge.net/download/linux/%{dict8}.tar.gz
-#Source9:    http://freedict.sourceforge.net/download/linux/%{dict9}.tar.gz
+Source9:    http://freedict.sourceforge.net/download/linux/%{dict9}.tar.gz
 Source10:    http://freedict.sourceforge.net/download/linux/%{dict10}.tar.gz
 Source11:    http://freedict.sourceforge.net/download/linux/%{dict11}.tar.gz
 Source12:    http://freedict.sourceforge.net/download/linux/%{dict12}.tar.gz
-Source13:    http://freedict.sourceforge.net/download/linux/%{dict13}.tar.gz
+#Source13:    http://freedict.sourceforge.net/download/linux/%{dict13}.tar.gz
 Source14:    http://freedict.sourceforge.net/download/linux/%{dict14}.tar.gz
 Source15:    http://freedict.sourceforge.net/download/linux/%{dict15}.tar.gz
 Source16:    http://freedict.sourceforge.net/download/linux/%{dict16}.tar.gz
@@ -807,23 +808,21 @@ server in the dictd package.
 Ten pakiet zawiera s³ownik %{dict46} do u¿ywania z serwerem s³ownika
 dictd.
 
-
-
 %prep
 %setup -q -c
 %setup -q -c -T -D -a 1
 %setup -q -c -T -D -a 2
 %setup -q -c -T -D -a 3
-#%setup -q -c -T -D -a 4
+%setup -q -c -T -D -a 4
 %setup -q -c -T -D -a 5
 %setup -q -c -T -D -a 6
 %setup -q -c -T -D -a 7
 %setup -q -c -T -D -a 8
-#%setup -q -c -T -D -a 9
+%setup -q -c -T -D -a 9
 %setup -q -c -T -D -a 10
 %setup -q -c -T -D -a 11
 %setup -q -c -T -D -a 12
-%setup -q -c -T -D -a 13
+#%setup -q -c -T -D -a 13
 %setup -q -c -T -D -a 14
 %setup -q -c -T -D -a 15
 %setup -q -c -T -D -a 16
@@ -835,11 +834,11 @@ dictd.
 %setup -q -c -T -D -a 22
 %setup -q -c -T -D -a 23
 %setup -q -c -T -D -a 24
-%setup -q -c -T -D -a 25
-#%setup -q -c -T -D -a 26
+#%setup -q -c -T -D -a 25
+%setup -q -c -T -D -a 26
 %setup -q -c -T -D -a 27
 %setup -q -c -T -D -a 28
-#%setup -q -c -T -D -a 29
+%setup -q -c -T -D -a 29
 %setup -q -c -T -D -a 30
 %setup -q -c -T -D -a 31
 %setup -q -c -T -D -a 32
@@ -865,7 +864,7 @@ autoconf
 %{__make}
 cd ..
 
-echo "Making %{dictionaries} %{dict8}"
+echo "Making %{dictionaries}"
 for i in %{dictionaries}; do
     mv $i.dict.dz $i.gz
     gunzip $i.gz
@@ -1361,10 +1360,10 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict8}.dictconf 
 %{_datadir}/dictd/%{dictname}_%{dict8}*
 
-#%files -n  %{dictname}-%{dict9}
-#%defattr(644,root,root,755)
-#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict9}.dictconf 
-#%{_datadir}/dictd/%{dictname}_%{dict9}*
+%files -n  %{dictname}-%{dict9}
+%defattr(644,root,root,755)
+%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict9}.dictconf 
+%{_datadir}/dictd/%{dictname}_%{dict9}*
 
 %files -n  %{dictname}-%{dict10}
 %defattr(644,root,root,755)
@@ -1381,10 +1380,10 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict12}.dictconf 
 %{_datadir}/dictd/%{dictname}_%{dict12}*
 
-%files -n  %{dictname}-%{dict13}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict13}.dictconf 
-%{_datadir}/dictd/%{dictname}_%{dict13}*
+#%files -n  %{dictname}-%{dict13}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict13}.dictconf 
+#%{_datadir}/dictd/%{dictname}_%{dict13}*
 
 %files -n  %{dictname}-%{dict14}
 %defattr(644,root,root,755)
@@ -1441,10 +1440,10 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict24}.dictconf 
 %{_datadir}/dictd/%{dictname}_%{dict24}*
 
-%files -n  %{dictname}-%{dict25}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict25}.dictconf 
-%{_datadir}/dictd/%{dictname}_%{dict25}*
+#%files -n  %{dictname}-%{dict25}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict25}.dictconf 
+#%{_datadir}/dictd/%{dictname}_%{dict25}*
 
 %files -n  %{dictname}-%{dict26}
 %defattr(644,root,root,755)
@@ -1461,10 +1460,10 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict28}.dictconf 
 %{_datadir}/dictd/%{dictname}_%{dict28}*
 
-%files -n  %{dictname}-%{dict29}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict29}.dictconf 
-%{_datadir}/dictd/%{dictname}_%{dict29}*
+#%files -n  %{dictname}-%{dict29}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict29}.dictconf 
+#%{_datadir}/dictd/%{dictname}_%{dict29}*
 
 %files -n  %{dictname}-%{dict30}
 %defattr(644,root,root,755)
