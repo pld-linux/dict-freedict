@@ -59,14 +59,14 @@
 # empty
 #%%define	dict52	eng-hin
 
-%define dicts0 %{dict0} %{dict1} %{dict2} %{dict3} %{dict4} %{dict5} %{dict6}
-%define dicts1 %{dict7} %{dict8} %{dict9} %{dict11} %{dict12} %{dict13}
-%define dicts2 %{dict14} %{dict15} %{dict16} %{dict17} %{dict18} %{dict19}
-%define dicts3 %{dict20} %{dict21} %{dict22} %{dict23} %{dict24} %{dict25}
-%define dicts4 %{dict26} %{dict27} %{dict29} %{dict30} %{dict31} %{dict32}
-%define dicts5 %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38}
-%define dicts6 %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44}
-%define dicts7 %{dict45} %{dict46} %{dict47} %{dict48} %{dict49} %{dict50} %{dict51}
+%define dicts0	%{dict0}  %{dict1}  %{dict2}  %{dict3}  %{dict4}  %{dict5}  %{dict6}
+%define dicts1	%{dict7}  %{dict8}  %{dict9}  %{dict11} %{dict12}
+%define dicts2	          %{dict15} %{dict16}           %{dict18} %{dict19}
+%define dicts3	                    %{dict22} %{dict23} %{dict24} %{dict25}
+%define dicts4	%{dict26} %{dict27} %{dict29} %{dict30} %{dict31} %{dict32}
+%define dicts5	%{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38}
+%define dicts6	%{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44}
+%define dicts7	%{dict45} %{dict46} %{dict47} %{dict48} %{dict49}
 
 %define dictionaries %{dicts0} %{dicts1} %{dicts2} %{dicts3} %{dicts4} %{dicts5} %{dicts6} %{dicts7}
 
@@ -1626,15 +1626,15 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict12}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict12}.*
 
-%files %{dict13}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict13}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict13}.*
+#%files %{dict13}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict13}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict13}.*
 
-%files %{dict14}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict14}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict14}.*
+#%files %{dict14}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict14}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict14}.*
 
 %files %{dict15}
 %defattr(644,root,root,755)
@@ -1646,10 +1646,10 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict16}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict16}.*
 
-%files %{dict17}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict17}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict17}.*
+#%files %{dict17}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict17}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict17}.*
 
 %files %{dict18}
 %defattr(644,root,root,755)
@@ -1661,15 +1661,15 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict19}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict19}.*
 
-%files %{dict20}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict20}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict20}.*
+#%files %{dict20}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict20}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict20}.*
 
-%files %{dict21}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict21}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict21}.*
+#%files %{dict21}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict21}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict21}.*
 
 %files %{dict22}
 %defattr(644,root,root,755)
@@ -1811,15 +1811,15 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict49}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict49}.*
 
-%files %{dict50}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict50}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict50}.*
+#%files %{dict50}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict50}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict50}.*
 
-%files %{dict51}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict51}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict51}.*
+#%files %{dict51}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict51}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict51}.*
 
 #%files %{dict52}
 #%defattr(644,root,root,755)
