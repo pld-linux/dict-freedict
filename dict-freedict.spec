@@ -826,7 +826,7 @@ done
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_datadir}/dictd/,%{_sysconfdir}/dictd}
+install -d $RPM_BUILD_ROOT{%{_datadir}/dictd,%{_sysconfdir}/dictd}
 
 for i in %{dictionaries}; do
 	dictprefix=%{_datadir}/dictd/%{dictname}_$i
