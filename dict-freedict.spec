@@ -129,11 +129,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains the free bilingual dictionaries, version
-%version formatted for use by the dictionary server in the dictd
+%{version} formatted for use by the dictionary server in the dictd
 package.
 
 %description -l pl
-Ten pakiet zawiera darmowe dwujêzyczne s³owniki w wersji %version
+Ten pakiet zawiera darmowe dwujêzyczne s³owniki w wersji %{version}
 sformatowane do u¿ytku z serwerem s³ownika dictd.
 
 %package %{dict1}
