@@ -52,6 +52,9 @@
 %define	dict48	tur-deu
 %define	dict49	tur-eng
 %define	dict50	wel-eng
+%define dict51	eng-ara
+# empty
+#%%define	dict52	eng-hin
 
 %define dicts0 %{dict0} %{dict1} %{dict2} %{dict3} %{dict4} %{dict5} %{dict6}
 %define dicts1 %{dict7} %{dict8} %{dict9} %{dict11} %{dict12} %{dict13}
@@ -60,122 +63,130 @@
 %define dicts4 %{dict26} %{dict27} %{dict29} %{dict30} %{dict31} %{dict32}
 %define dicts5 %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38}
 %define dicts6 %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44}
-%define dicts7 %{dict45} %{dict46} %{dict47} %{dict48} %{dict49} %{dict50}
+%define dicts7 %{dict45} %{dict46} %{dict47} %{dict48} %{dict49} %{dict50} %{dict51}
 
 %define dictionaries %{dicts0} %{dicts1} %{dicts2} %{dicts3} %{dicts4} %{dicts5} %{dicts6} %{dicts7}
 
 Summary:	The free bilingual dictionaries for dictd
 Summary(pl):	Darmowe dwuj瞛ykowe s這wniki dla dictd
 Name:		dict-%{dictname}
-Version:	20020622
-Release:	4
+Version:	20030508
+Release:	1
 License:	GPL
 Group:		Applications/Dictionaries
 # also at ftp://ftp.sourceforge.net/pub/sourceforge/freedict/ if following wouldn't work
 Source0:	http://freedict.sourceforge.net/download/linux/%{dict0}.tar.gz
-# Source0-md5:	c9467967b532ca7ae3c91f867cc4305f
+# Source0-md5:	9db57d2971a46aae785f0eac5bdbbc77
 Source1:	http://freedict.sourceforge.net/download/linux/%{dict1}.tar.gz
 # Source1-md5:	937d6e25e37ce2f913cadff2fafe8850
 Source2:	http://freedict.sourceforge.net/download/linux/%{dict2}.tar.gz
-# Source2-md5:	592420da66d76072c57b1a8e8788231b
+# Source2-md5:	39456b7d9e65d86562e35ff883650306
 Source3:	http://freedict.sourceforge.net/download/linux/%{dict3}.tar.gz
-# Source3-md5:	c77f3c7d250dc9db49f7b31270324c0c
+# Source3-md5:	b665b547785e8537e7dba391fc348f86
 Source4:	http://freedict.sourceforge.net/download/linux/%{dict4}.tar.gz
-# Source4-md5:	de69a3f124405eee28b10858062792bd
+# Source4-md5:	bbf0e8012d01dc9b115babc1f434e7ec
 Source5:	http://freedict.sourceforge.net/download/linux/%{dict5}.tar.gz
-# Source5-md5:	6e4af51509f4ebace9bb046a30d2e429
+# Source5-md5:	4428cffc763a22fd64670860705f2ecd
 Source6:	http://freedict.sourceforge.net/download/linux/%{dict6}.tar.gz
-# Source6-md5:	c1f197ef370ae09d10a5bd474a614540
+# Source6-md5:	39af0789c8acad3c12e6e6644e316ba3
 Source7:	http://freedict.sourceforge.net/download/linux/%{dict7}.tar.gz
-# Source7-md5:	e63c77e1fc6d6e6c11c8a48d255cf6b5
+# Source7-md5:	ea024dbd060aaa22a47aa6ce986909df
 Source8:	http://freedict.sourceforge.net/download/linux/%{dict8}.tar.gz
-# Source8-md5:	6b95a1bd25662f25b4f47bce326d033a
+# Source8-md5:	06ffcf776daca6c0357cd87f1a3b7bd0
 Source9:	http://freedict.sourceforge.net/download/linux/%{dict9}.tar.gz
 # Source9-md5:	28a99edfcbbce29d6cbe41c75a8ec220
 #
 #Source10:	http://freedict.sourceforge.net/download/linux/%{dict10}.tar.gz
 #
 Source11:	http://freedict.sourceforge.net/download/linux/%{dict11}.tar.gz
-# Source11-md5:	ed850b561c2ac71d02e50319f668501b
+# Source11-md5:	809c29221fbed11606ad4e68de11486e
 Source12:	http://freedict.sourceforge.net/download/linux/%{dict12}.tar.gz
-# Source12-md5:	3ca515749e658023d42ef398f246a0cc
-Source13:	http://freedict.sourceforge.net/download/linux/%{dict13}.tar.gz
+# Source12-md5:	ec3c73b204e063f6dc38236aa81abbe6
+# eng-hun dictionary has been cleared, use the old one from distfiles
+Source13:	%{dict13}.tar.gz
 # Source13-md5:	3b832ced009d37cddb3ce939db6ed9b5
 Source14:	http://freedict.sourceforge.net/download/linux/%{dict14}.tar.gz
-# Source14-md5:	a2e846f7521c2ac8941ee2430704c697
+# Source14-md5:	0551a4d85173246fc177f065255a1a21
 Source15:	http://freedict.sourceforge.net/download/linux/%{dict15}.tar.gz
 # Source15-md5:	f4e691e3d81812790f68ab39bda37d58
 Source16:	http://freedict.sourceforge.net/download/linux/%{dict16}.tar.gz
-# Source16-md5:	2fc6032317a296aef4cbc94400ff4f31
+# Source16-md5:	d3768f805c3b2cc26a55bab49972abbe
 Source17:	http://freedict.sourceforge.net/download/linux/%{dict17}.tar.gz
-# Source17-md5:	f957b04836886faf0e3b3ae8dd23f2a1
-Source18:	http://freedict.sourceforge.net/download/linux/%{dict18}.tar.gz
-# Source18-md5:	daf15c6fcd1f3bffae166e098c28ee30
+# Source17-md5:	7f2a4c000772823a6256ded0598dff2a
+# eng-por dictionary has been cleared, use the very old one from below
+Source18:	http://dl.sourceforge.net/freedict/%{dict18}.tar.gz
+# Source18-md5:	736df42657b4daa24c22cba1bfaf6627
 Source19:	http://freedict.sourceforge.net/download/linux/%{dict19}.tar.gz
-# Source19-md5:	774303544e7955f39846102565466655
+# Source19-md5:	bc2d7605c53adfaeb3e27acf2cc24c76
 Source20:	http://freedict.sourceforge.net/download/linux/%{dict20}.tar.gz
-# Source20-md5:	70e00150a6a7e2e9feb7d49c7df36db3
+# Source20-md5:	8bd97526578de169bf7560a28085b137
 Source21:	http://freedict.sourceforge.net/download/linux/%{dict21}.tar.gz
-# Source21-md5:	c6453f38274f34f39fb89bca59667347
+# Source21-md5:	78a390033378196e581cfe3c2040b7ec
 Source22:	http://freedict.sourceforge.net/download/linux/%{dict22}.tar.gz
-# Source22-md5:	3b901476fe9c5f98c492d5ba255f5a80
+# Source22-md5:	2d2d98226c6ce671e8f7a4f682d94ad8
 Source23:	http://freedict.sourceforge.net/download/linux/%{dict23}.tar.gz
-# Source23-md5:	2ed01697454d6e1c5c37962ef61d4c1e
+# Source23-md5:	a5a5ec7190baeb8acc49e78cee75da87
 Source24:	http://freedict.sourceforge.net/download/linux/%{dict24}.tar.gz
-# Source24-md5:	4612a66c530bd2aefbadd6a1b2f49856
+# Source24-md5:	834add94422d4efea62db8e6b2157ec3
 Source25:	http://freedict.sourceforge.net/download/linux/%{dict25}.tar.gz
-# Source25-md5:	8d1dad1bba5346a80c7c2103ae7102c2
+# Source25-md5:	e776f0b40e4aa586291e01527a82fe94
 Source26:	http://freedict.sourceforge.net/download/linux/%{dict26}.tar.gz
-# Source26-md5:	9ec5c56d4300234d066090f69035bf53
+# Source26-md5:	5258048c067f1b2c0b7b471f781c3d68
 Source27:	http://freedict.sourceforge.net/download/linux/%{dict27}.tar.gz
-# Source27-md5:	93359b5f612e989c7a31c260df62f05a
+# Source27-md5:	07623e0729230c25352a109a8286a6bf
 #
 #Source28:	http://freedict.sourceforge.net/download/linux/%{dict28}.tar.gz
 #
-Source29:	http://freedict.sourceforge.net/download/linux/%{dict29}.tar.gz
+# hun-eng dictionary has been cleared, use the old one from distfiles
+Source29:	%{dict29}.tar.gz
 # Source29-md5:	9c31a5e39cd08e940550956b10ec3fe2
 Source30:	http://freedict.sourceforge.net/download/linux/%{dict30}.tar.gz
-# Source30-md5:	6aa4297af7aaafeeb65d63f89e9e374e
+# Source30-md5:	1fb5e17b8a181cac525e3a60226c1723
 Source31:	http://freedict.sourceforge.net/download/linux/%{dict31}.tar.gz
-# Source31-md5:	9e5cfa2764b04ad773e2c46e6ec2a004
+# Source31-md5:	177b7288655f9b0b0dd556ece5e6fa15
 Source32:	http://freedict.sourceforge.net/download/linux/%{dict32}.tar.gz
 # Source32-md5:	85113c62955a6aa1d2e0143f57b2335e
 Source33:	http://freedict.sourceforge.net/download/linux/%{dict33}.tar.gz
-# Source33-md5:	14fccb3fe6275d0d0761d725f3546330
+# Source33-md5:	907f394e8bd8d1047d1c76c3852326b7
 Source34:	http://freedict.sourceforge.net/download/linux/%{dict34}.tar.gz
-# Source34-md5:	d1e8eddc75e0978ea88b21fdd91631d8
+# Source34-md5:	31c450a0f63e51e157cac9c1e99173d6
 Source35:	http://freedict.sourceforge.net/download/linux/%{dict35}.tar.gz
-# Source35-md5:	dd4fce2f4df0272e67742c0d977e3c93
+# Source35-md5:	c1496c442d3d082d0035fcb898aec2ee
 Source36:	http://freedict.sourceforge.net/download/linux/%{dict36}.tar.gz
-# Source36-md5:	390ddc45c4187e20b07e53f87736935b
+# Source36-md5:	e94cd171a985544870b2912f19329528
 Source37:	http://freedict.sourceforge.net/download/linux/%{dict37}.tar.gz
-# Source37-md5:	f2c3b8ff936a9ff8d6bc54edca7c5e20
+# Source37-md5:	9706807ef14fc3575bd0d07c14840fdf
 Source38:	http://freedict.sourceforge.net/download/linux/%{dict38}.tar.gz
-# Source38-md5:	255e929cf794bbeb184f2c76c7fa1403
+# Source38-md5:	0f930af989040d5cc7c58762c0bb86bd
 Source39:	http://freedict.sourceforge.net/download/linux/%{dict39}.tar.gz
-# Source39-md5:	5326d46d7c72c6390c2c8073f4d4f186
+# Source39-md5:	a215fa3997010e0b3dcae9bc62eb28d6
 Source40:	http://freedict.sourceforge.net/download/linux/%{dict40}.tar.gz
-# Source40-md5:	cf6c4f2ca0f85816bc9077d8be59ff53
+# Source40-md5:	fbd66fb9e7d5ca171034d4fdfced36b2
 Source41:	http://freedict.sourceforge.net/download/linux/%{dict41}.tar.gz
-# Source41-md5:	c61f117ba2fa3d4cb2cd04c0455d58bd
+# Source41-md5:	747ecd61d032d4db7b527b969c7b840f
 Source42:	http://freedict.sourceforge.net/download/linux/%{dict42}.tar.gz
-# Source42-md5:	e7449d73fbcf16a12bb6fbfc56962b13
+# Source42-md5:	288a9bf9a18012161551ac07c5918b5f
 Source43:	http://freedict.sourceforge.net/download/linux/%{dict43}.tar.gz
-# Source43-md5:	cfb0b2e3d0183c88c18c3a1f9df80ba2
+# Source43-md5:	79fda6bb966ca4364016d47fdadbf878
 Source44:	http://freedict.sourceforge.net/download/linux/%{dict44}.tar.gz
-# Source44-md5:	5759755763368597f20c97eeb5933e85
+# Source44-md5:	9dbd9fdf930f2c2c9ac7bc04c8ce6d8d
 Source45:	http://freedict.sourceforge.net/download/linux/%{dict45}.tar.gz
-# Source45-md5:	68993b93781fa3903aad49c4c3f28578
+# Source45-md5:	61c67a982d1fd6c6b3013ec107e5cd97
 Source46:	http://freedict.sourceforge.net/download/linux/%{dict46}.tar.gz
-# Source46-md5:	32f59e657d4d94e79d08defb5bfe7154
+# Source46-md5:	1d5f74d1cbc1fd75617b58bd75ad3736
 Source47:	http://freedict.sourceforge.net/download/linux/%{dict47}.tar.gz
-# Source47-md5:	8999df72c0dc4d34389485c78a41ace8
+# Source47-md5:	eef9b7f6d051a65d303fe31fb9fbb130
 Source48:	http://freedict.sourceforge.net/download/linux/%{dict48}.tar.gz
-# Source48-md5:	d631f207faefb4039ef0db6952b0d445
+# Source48-md5:	fa7d94cfe2a83c10b443feaefececf43
 Source49:	http://freedict.sourceforge.net/download/linux/%{dict49}.tar.gz
-# Source49-md5:	702a798614c672ef72783678073dfeba
+# Source49-md5:	db95c621461833fd86aedd6b3d890737
 Source50:	http://freedict.sourceforge.net/download/linux/%{dict50}.tar.gz
-# Source50-md5:	abc052bd8066bd70614ab8a114ad5a95
+# Source50-md5:	0ce05d01b7241578388ac69f8d6cb332
+Source51:	http://freedict.sourceforge.net/download/linux/%{dict51}.tar.gz
+# Source51-md5:	53f0ee3e6127de242280801ef5c00d51
+#
+#Source52:	http://freedict.sourceforge.net/download/linux/%{dict52}.tar.gz
+#
 URL:		http://www.freedict.de/
 BuildRequires:	dictfmt
 BuildRequires:	dictzip
@@ -942,6 +953,36 @@ server in the dictd package.
 Ten pakiet zawiera s這wnik %{dict50} do u篡wania z serwerem s這wnika
 dictd.
 
+%package %{dict51}
+Summary:	The %{dict51} dictionary for dictd
+Summary(pl):	S這wnik %{dict51} dla dictd
+Group:		Applications/Dictionaries
+Requires:	dictd
+Requires:	%{_sysconfdir}/dictd
+
+%description %{dict51}
+This package contains %{dict51} dictionaries for use by the dictionary
+server in the dictd package.
+
+%description %{dict51} -l pl
+Ten pakiet zawiera s這wnik %{dict51} do u篡wania z serwerem s這wnika
+dictd.
+
+%package %{dict52}
+Summary:	The %{dict52} dictionary for dictd
+Summary(pl):	S這wnik %{dict52} dla dictd
+Group:		Applications/Dictionaries
+Requires:	dictd
+Requires:	%{_sysconfdir}/dictd
+
+%description %{dict52}
+This package contains %{dict52} dictionaries for use by the dictionary
+server in the dictd package.
+
+%description %{dict52} -l pl
+Ten pakiet zawiera s這wnik %{dict52} do u篡wania z serwerem s這wnika
+dictd.
+
 %prep
 %setup -q -c -a2 -a3 -a4 -a5 \
 	-a6 -a7 -a8 -a9 -a10 \
@@ -952,8 +993,8 @@ dictd.
 	-a31 -a32 -a33 -a34 -a35 \
 	-a36 -a37 -a38 -a39 -a40 \
 	-a41 -a42 -a43 -a44 -a45 \
-	-a46 -a47 -a48 -a49 -a50
-# temporarily removed: -a11 -a28
+	-a46 -a47 -a48 -a49 -a50 -a51
+# temporarily removed: -a11 -a28 -a52
 
 %build
 echo "Making %{dictionaries}"
@@ -1481,6 +1522,26 @@ if [ -f /var/lock/subsys/dictd ]; then
 	/etc/rc.d/init.d/dictd restart 1>&2 || true
 fi
 
+%post %{dict51}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2
+fi
+
+%postun %{dict51}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2 || true
+fi
+
+%post %{dict52}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2
+fi
+
+%postun %{dict52}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2 || true
+fi
+
 %files %{dict1}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict1}.dictconf
@@ -1714,19 +1775,29 @@ fi
 %files %{dict47}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict47}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict37}.*
+%{_datadir}/dictd/%{dictname}_%{dict47}.*
 
 %files %{dict48}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict48}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict38}.*
+%{_datadir}/dictd/%{dictname}_%{dict48}.*
 
 %files %{dict49}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict49}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict39}.*
+%{_datadir}/dictd/%{dictname}_%{dict49}.*
 
 %files %{dict50}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict50}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict40}.*
+%{_datadir}/dictd/%{dictname}_%{dict50}.*
+
+%files %{dict51}
+%defattr(644,root,root,755)
+%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict51}.dictconf
+%{_datadir}/dictd/%{dictname}_%{dict51}.*
+
+#%files %{dict52}
+#%defattr(644,root,root,755)
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict52}.dictconf
+#%%{_datadir}/dictd/%{dictname}_%{dict52}.*
