@@ -1,3 +1,6 @@
+#
+# NOTE: it buildrequires en_IN.UTF-8 locale support in libc
+#
 %define	dictname	freedict
 %define	dict0	afr-deu
 %define	dict1	afr-eng
