@@ -55,7 +55,7 @@ Version:	20020622
 Release:	1
 License:	GPL
 Group:		Applications/Dictionaries
-Source0:	http://www.freedict.de/pub/dict/dictmisc.tar.gz
+Source0:	http://www.freedict.de/download/linux/dictmisc.tar.gz
 Source1:    http://freedict.sourceforge.net/download/linux/%{dict1}.tar.gz
 Source2:    http://freedict.sourceforge.net/download/linux/%{dict2}.tar.gz
 Source3:    http://freedict.sourceforge.net/download/linux/%{dict3}.tar.gz
