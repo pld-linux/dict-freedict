@@ -1478,7 +1478,7 @@ fi
 #%files %{dict11}
 #%defattr(644,root,root,755)
 #%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict11}.dictconf
-#%{_datadir}/dictd/%{dictname}_%{dict11}.*
+#%%{_datadir}/dictd/%{dictname}_%{dict11}.*
 
 %files %{dict12}
 %defattr(644,root,root,755)
@@ -1563,7 +1563,7 @@ fi
 #%files %{dict28}
 #%defattr(644,root,root,755)
 #%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict28}.dictconf
-#%{_datadir}/dictd/%{dictname}_%{dict28}.*
+#%%{_datadir}/dictd/%{dictname}_%{dict28}.*
 
 %files %{dict29}
 %defattr(644,root,root,755)
