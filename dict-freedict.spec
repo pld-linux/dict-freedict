@@ -203,6 +203,21 @@ package.
 Ten pakiet zawiera darmowe dwuj瞛yczne s這wniki w wersji %{version}
 sformatowane do u篡tku z serwerem s這wnika dictd.
 
+%package %{dict0}
+Summary:	The %{dict0} dictionary for dictd
+Summary(pl):	S這wnik %{dict0} dla dictd
+Group:		Applications/Dictionaries
+Requires:	dictd
+Requires:	%{_sysconfdir}/dictd
+
+%description %{dict0}
+This package contains %{dict0} dictionaries for use by the dictionary
+server in the dictd package.
+
+%description %{dict0} -l pl
+Ten pakiet zawiera s這wnik %{dict0} do u篡wania z serwerem s這wnika
+dictd.
+
 %package %{dict1}
 Summary:	The %{dict1} dictionary for dictd
 Summary(pl):	S這wnik %{dict1} dla dictd
@@ -984,24 +999,15 @@ Ten pakiet zawiera s這wnik %{dict52} do u篡wania z serwerem s這wnika
 dictd.
 
 %prep
-%setup -q -c -a2 -a3 -a4 -a5 \
-	-a6 -a7 -a8 -a9 -a10 \
-	-a12 -a13 -a14 -a15 \
-	-a16 -a17 -a18 -a19 -a20 \
-	-a21 -a22 -a23 -a24 -a25 \
-	-a26 -a27 -a29 -a30 \
-	-a31 -a32 -a33 -a34 -a35 \
-	-a36 -a37 -a38 -a39 -a40 \
-	-a41 -a42 -a43 -a44 -a45 \
-	-a46 -a47 -a48 -a49 -a50 -a51
-# temporarily removed: -a11 -a28 -a52
+%setup -q -c -a1 -a2 -a3 -a4 -a5 -a6 -a7 -a8 -a9 -a11 -a12 -a13 -a14 -a15 -a16 -a17 -a18 -a19 -a20 -a21 -a22 -a23 -a24 -a25 -a26 -a27 -a29 -a30 -a31 -a32 -a33 -a34 -a35 -a36 -a37 -a38 -a39 -a40 -a41 -a42 -a43 -a44 -a45 -a46 -a47 -a48 -a49 -a50 -a51
+# temporarily removed: -a10 -a28 -a52
 
 %build
 echo "Making %{dictionaries}"
 for i in %{dictionaries}; do
 	mv $i.dict.dz $i.gz
 	gunzip $i.gz
-	dictfmt -f -u "%url" -s "$i Freedict dictionary" %{dictname}_$i < $i
+	dictfmt -f -u "%url" -s "$i Freedict dictionary" %{dictname}_$i --locale en_IN.UTF-8 < $i
 	dictzip %{dictname}_$i.dict
 done
 
@@ -1021,6 +1027,16 @@ done
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post %{dict0}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2
+fi
+
+%postun %{dict0}
+if [ -f /var/lock/subsys/dictd ]; then
+	/etc/rc.d/init.d/dictd restart 1>&2 || true
+fi
 
 %post %{dict1}
 if [ -f /var/lock/subsys/dictd ]; then
@@ -1542,6 +1558,11 @@ if [ -f /var/lock/subsys/dictd ]; then
 	/etc/rc.d/init.d/dictd restart 1>&2 || true
 fi
 
+%files %{dict0}
+%defattr(644,root,root,755)
+%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict0}.dictconf
+%{_datadir}/dictd/%{dictname}_%{dict0}.*
+
 %files %{dict1}
 %defattr(644,root,root,755)
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict1}.dictconf
@@ -1587,15 +1608,15 @@ fi
 %attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict9}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict9}.*
 
-%files %{dict10}
-%defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict10}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict10}.*
-
-#%files %{dict11}
+#%files %{dict10}
 #%defattr(644,root,root,755)
-#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict11}.dictconf
-#%%{_datadir}/dictd/%{dictname}_%{dict11}.*
+#%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict10}.dictconf
+#%{_datadir}/dictd/%{dictname}_%{dict10}.*
+
+%files %{dict11}
+%defattr(644,root,root,755)
+%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict11}.dictconf
+%{_datadir}/dictd/%{dictname}_%{dict11}.*
 
 %files %{dict12}
 %defattr(644,root,root,755)
@@ -1680,7 +1701,7 @@ fi
 #%files %{dict28}
 #%defattr(644,root,root,755)
 #%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict28}.dictconf
-#%%{_datadir}/dictd/%{dictname}_%{dict28}.*
+#%{_datadir}/dictd/%{dictname}_%{dict28}.*
 
 %files %{dict29}
 %defattr(644,root,root,755)
@@ -1800,4 +1821,4 @@ fi
 #%files %{dict52}
 #%defattr(644,root,root,755)
 #%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict52}.dictconf
-#%%{_datadir}/dictd/%{dictname}_%{dict52}.*
+#%{_datadir}/dictd/%{dictname}_%{dict52}.*
