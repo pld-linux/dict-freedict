@@ -51,15 +51,14 @@
 %define dictionaries %{dict1} %{dict2} %{dict3} %{dict4} %{dict5} %{dict6} %{dict7} %{dict8} %{dict9} %{dict10} %{dict11} %{dict12} %{dict13} %{dict14} %{dict15} %{dict16} %{dict17} %{dict18} %{dict19} %{dict20} %{dict21} %{dict22} %{dict23} %{dict24} %{dict26} %{dict27} %{dict28} %{dict30} %{dict31} %{dict32} %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38} %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44} %{dict45} %{dict46}
 
 Summary:	The Free bilingual dictionaries for dictd
-Summary(pl):	Darmowe dwuj瞛ykowe S這wniki dla dictd
+Summary(pl):	Darmowe dwuj瞛ykowe s這wniki dla dictd
 Name:		dict-%{dictname}
 Version:	20020622
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Dictionaries
-Source0:	http://www.freedict.de/download/linux/dictmisc.tar.gz
 # also at ftp://ftp.sourceforge.net/pub/sourceforge/freedict/ if following wouldn't work
-Source1:	http://freedict.sourceforge.net/download/linux/%{dict1}.tar.gz
+Source0:	http://freedict.sourceforge.net/download/linux/%{dict1}.tar.gz
 Source2:	http://freedict.sourceforge.net/download/linux/%{dict2}.tar.gz
 Source3:	http://freedict.sourceforge.net/download/linux/%{dict3}.tar.gz
 Source4:	http://freedict.sourceforge.net/download/linux/%{dict4}.tar.gz
@@ -107,6 +106,7 @@ Source45:	http://freedict.sourceforge.net/download/linux/%{dict45}.tar.gz
 Source46:	http://freedict.sourceforge.net/download/linux/%{dict46}.tar.gz
 URL:		http://www.freedict.de/
 BuildRequires:	autoconf
+BuildRequires:	dictfmt
 BuildRequires:	dictzip
 Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
@@ -812,24 +812,17 @@ Ten pakiet zawiera s這wnik %{dict46} do u篡wania z serwerem s這wnika
 dictd.
 
 %prep
-%setup -q -c -a1 -a2 -a3 -a4 -a5 -a6 -a7 -a8 -a9 -a10 -a11 -a12 -a13 -a14 -a15 -a16 -a17 -a18 -a19 -a20 -a21 -a22 -a23 -a24 -a26 -a27 -a28 -a30 -a31 -a32 -a33 -a34 -a35 -a36 -a37 -a38 -a39 -a40 -a41 -a42 -a43 -a44 -a45 -a46
+%setup -q -c -a2 -a3 -a4 -a5 -a6 -a7 -a8 -a9 -a10 -a11 -a12 -a13 -a14 -a15 -a16 -a17 -a18 -a19 -a20 -a21 -a22 -a23 -a24 -a26 -a27 -a28 -a30 -a31 -a32 -a33 -a34 -a35 -a36 -a37 -a38 -a39 -a40 -a41 -a42 -a43 -a44 -a45 -a46
 # temporarily(?) removed
 # -a25 -a29
 
 %build
-cd dictmisc
-%{__autoconf}
-%configure
-%{__make}
-cd ..
-
 echo "Making %{dictionaries}"
 for i in %{dictionaries}; do
-  mv $i.dict.dz $i.gz
-  gunzip $i.gz
-  dictfiles=%{_datadir}/dictd/$i
-  ./dictmisc/dictfmt -f -u "%{URL}" -s "$i Freedict dictionary" %{dictname}_$i < $i
-  dictzip %{dictname}_$i.dict
+	mv $i.dict.dz $i.gz
+	gunzip $i.gz
+	dictfmt -f -u "%{URL}" -s "$i Freedict dictionary" %{dictname}_$i < $i
+	dictzip %{dictname}_$i.dict
 done
 
 %install
@@ -837,13 +830,13 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/dictd/,%{_sysconfdir}/dictd}
 
 for i in %{dictionaries}; do
-  dictprefix=%{_datadir}/dictd/%{dictname}_$i
-  echo "# The Bilingual dictionaries
+	dictprefix=%{_datadir}/dictd/%{dictname}_$i
+	echo "# The Bilingual dictionaries
 database $i {
 	data  \"$dictprefix.dict.dz\"
 	index \"$dictprefix.index\"
 }" > $RPM_BUILD_ROOT%{_sysconfdir}/dictd/%{dictname}-$i.dictconf
-  mv %{dictname}_$i.* $RPM_BUILD_ROOT%{_datadir}/dictd/
+	mv %{dictname}_$i.* $RPM_BUILD_ROOT%{_datadir}/dictd
 done
 
 %clean
