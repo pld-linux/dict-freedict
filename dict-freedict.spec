@@ -81,11 +81,11 @@ Source21:    http://freedict.sourceforge.net/download/linux/%{dict21}.tar.gz
 Source22:    http://freedict.sourceforge.net/download/linux/%{dict22}.tar.gz
 Source23:    http://freedict.sourceforge.net/download/linux/%{dict23}.tar.gz
 Source24:    http://freedict.sourceforge.net/download/linux/%{dict24}.tar.gz
-Source25:    http://freedict.sourceforge.net/download/linux/%{dict25}.tar.gz
+#Source25:    http://freedict.sourceforge.net/download/linux/%{dict25}.tar.gz
 Source26:    http://freedict.sourceforge.net/download/linux/%{dict26}.tar.gz
 Source27:    http://freedict.sourceforge.net/download/linux/%{dict27}.tar.gz
 Source28:    http://freedict.sourceforge.net/download/linux/%{dict28}.tar.gz
-Source29:    http://freedict.sourceforge.net/download/linux/%{dict29}.tar.gz
+#Source29:    http://freedict.sourceforge.net/download/linux/%{dict29}.tar.gz
 Source30:    http://freedict.sourceforge.net/download/linux/%{dict30}.tar.gz
 Source31:    http://freedict.sourceforge.net/download/linux/%{dict31}.tar.gz
 Source32:    http://freedict.sourceforge.net/download/linux/%{dict32}.tar.gz
@@ -834,11 +834,11 @@ dictd.
 %setup -q -c -T -D -a 22
 %setup -q -c -T -D -a 23
 %setup -q -c -T -D -a 24
-#%setup -q -c -T -D -a 25
+%setup -q -c -T -D -a 25
 %setup -q -c -T -D -a 26
 %setup -q -c -T -D -a 27
 %setup -q -c -T -D -a 28
-%setup -q -c -T -D -a 29
+#%setup -q -c -T -D -a 29
 %setup -q -c -T -D -a 30
 %setup -q -c -T -D -a 31
 %setup -q -c -T -D -a 32
