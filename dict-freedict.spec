@@ -50,7 +50,7 @@
 # removed dict25 dict29 --undefine's patch.
 %define dictionaries %{dict1} %{dict2} %{dict3} %{dict4} %{dict5} %{dict6} %{dict7} %{dict8} %{dict9} %{dict10} %{dict11} %{dict12} %{dict13} %{dict14} %{dict15} %{dict16} %{dict17} %{dict18} %{dict19} %{dict20} %{dict21} %{dict22} %{dict23} %{dict24} %{dict26} %{dict27} %{dict28} %{dict30} %{dict31} %{dict32} %{dict33} %{dict34} %{dict35} %{dict36} %{dict37} %{dict38} %{dict39} %{dict40} %{dict41} %{dict42} %{dict43} %{dict44} %{dict45} %{dict46}
 
-Summary:	The Free bilingual dictionaries for dictd
+Summary:	The free bilingual dictionaries for dictd
 Summary(pl):	Darmowe dwuj瞛ykowe s這wniki dla dictd
 Name:		dict-%{dictname}
 Version:	20020622
@@ -82,7 +82,7 @@ Source21:	http://freedict.sourceforge.net/download/linux/%{dict21}.tar.gz
 Source22:	http://freedict.sourceforge.net/download/linux/%{dict22}.tar.gz
 Source23:	http://freedict.sourceforge.net/download/linux/%{dict23}.tar.gz
 Source24:	http://freedict.sourceforge.net/download/linux/%{dict24}.tar.gz
-Source25:	http://freedict.sourceforge.net/download/linux/%{dict25}.tar.gz
+#Source25:	http://freedict.sourceforge.net/download/linux/%{dict25}.tar.gz
 Source26:	http://freedict.sourceforge.net/download/linux/%{dict26}.tar.gz
 Source27:	http://freedict.sourceforge.net/download/linux/%{dict27}.tar.gz
 Source28:	http://freedict.sourceforge.net/download/linux/%{dict28}.tar.gz
@@ -105,7 +105,6 @@ Source44:	http://freedict.sourceforge.net/download/linux/%{dict44}.tar.gz
 Source45:	http://freedict.sourceforge.net/download/linux/%{dict45}.tar.gz
 Source46:	http://freedict.sourceforge.net/download/linux/%{dict46}.tar.gz
 URL:		http://www.freedict.de/
-BuildRequires:	autoconf
 BuildRequires:	dictfmt
 BuildRequires:	dictzip
 Requires:	dictd
@@ -113,7 +112,7 @@ Requires:	%{_sysconfdir}/dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This package contains The The Free bilingual dictionaries, version
+This package contains the free bilingual dictionaries, version
 %version formatted for use by the dictionary server in the dictd
 package.
 
@@ -122,7 +121,7 @@ Ten pakiet zawiera darmowe dwuj瞛yczne s這wniki w wersji %version
 sformatowane do u篡tku z serwerem s這wnika dictd.
 
 %package %{dict1}
-Summary:	The %{dict1} Dictionary for dictd
+Summary:	The %{dict1} dictionary for dictd
 Summary(pl):	S這wnik %{dict1} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -137,7 +136,7 @@ Ten pakiet zawiera s這wnik %{dict1} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict2}
-Summary:	The %{dict2} Dictionary for dictd
+Summary:	The %{dict2} dictionary for dictd
 Summary(pl):	S這wnik %{dict2} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -152,7 +151,7 @@ Ten pakiet zawiera s這wnik %{dict2} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict3}
-Summary:	The %{dict3} Dictionary for dictd
+Summary:	The %{dict3} dictionary for dictd
 Summary(pl):	S這wnik %{dict3} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -167,7 +166,7 @@ Ten pakiet zawiera s這wnik %{dict3} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict4}
-Summary:	The %{dict4} Dictionary for dictd
+Summary:	The %{dict4} dictionary for dictd
 Summary(pl):	S這wnik %{dict4} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -182,7 +181,7 @@ Ten pakiet zawiera s這wnik %{dict4} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict5}
-Summary:	The %{dict5} Dictionary for dictd
+Summary:	The %{dict5} dictionary for dictd
 Summary(pl):	S這wnik %{dict5} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -197,7 +196,7 @@ Ten pakiet zawiera s這wnik %{dict5} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict6}
-Summary:	The %{dict6} Dictionary for dictd
+Summary:	The %{dict6} dictionary for dictd
 Summary(pl):	S這wnik %{dict6} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -212,7 +211,7 @@ Ten pakiet zawiera s這wnik %{dict6} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict7}
-Summary:	The %{dict7} Dictionary for dictd
+Summary:	The %{dict7} dictionary for dictd
 Summary(pl):	S這wnik %{dict7} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -227,7 +226,7 @@ Ten pakiet zawiera s這wnik %{dict7} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict8}
-Summary:	The %{dict8} Dictionary for dictd
+Summary:	The %{dict8} dictionary for dictd
 Summary(pl):	S這wnik %{dict8} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -242,7 +241,7 @@ Ten pakiet zawiera s這wnik %{dict8} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict9}
-Summary:	The %{dict9} Dictionary for dictd
+Summary:	The %{dict9} dictionary for dictd
 Summary(pl):	S這wnik %{dict9} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -257,7 +256,7 @@ Ten pakiet zawiera s這wnik %{dict9} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict10}
-Summary:	The %{dict10} Dictionary for dictd
+Summary:	The %{dict10} dictionary for dictd
 Summary(pl):	S這wnik %{dict10} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -272,7 +271,7 @@ Ten pakiet zawiera s這wnik %{dict10} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict11}
-Summary:	The %{dict11} Dictionary for dictd
+Summary:	The %{dict11} dictionary for dictd
 Summary(pl):	S這wnik %{dict11} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -287,7 +286,7 @@ Ten pakiet zawiera s這wnik %{dict11} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict12}
-Summary:	The %{dict12} Dictionary for dictd
+Summary:	The %{dict12} dictionary for dictd
 Summary(pl):	S這wnik %{dict12} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -302,7 +301,7 @@ Ten pakiet zawiera s這wnik %{dict12} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict13}
-Summary:	The %{dict13} Dictionary for dictd
+Summary:	The %{dict13} dictionary for dictd
 Summary(pl):	S這wnik %{dict13} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -317,7 +316,7 @@ Ten pakiet zawiera s這wnik %{dict13} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict14}
-Summary:	The %{dict14} Dictionary for dictd
+Summary:	The %{dict14} dictionary for dictd
 Summary(pl):	S這wnik %{dict14} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -332,7 +331,7 @@ Ten pakiet zawiera s這wnik %{dict14} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict15}
-Summary:	The %{dict15} Dictionary for dictd
+Summary:	The %{dict15} dictionary for dictd
 Summary(pl):	S這wnik %{dict15} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -347,7 +346,7 @@ Ten pakiet zawiera s這wnik %{dict15} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict16}
-Summary:	The %{dict16} Dictionary for dictd
+Summary:	The %{dict16} dictionary for dictd
 Summary(pl):	S這wnik %{dict16} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -362,7 +361,7 @@ Ten pakiet zawiera s這wnik %{dict16} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict17}
-Summary:	The %{dict17} Dictionary for dictd
+Summary:	The %{dict17} dictionary for dictd
 Summary(pl):	S這wnik %{dict17} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -377,7 +376,7 @@ Ten pakiet zawiera s這wnik %{dict17} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict18}
-Summary:	The %{dict18} Dictionary for dictd
+Summary:	The %{dict18} dictionary for dictd
 Summary(pl):	S這wnik %{dict18} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -392,7 +391,7 @@ Ten pakiet zawiera s這wnik %{dict18} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict19}
-Summary:	The %{dict19} Dictionary for dictd
+Summary:	The %{dict19} dictionary for dictd
 Summary(pl):	S這wnik %{dict19} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -407,7 +406,7 @@ Ten pakiet zawiera s這wnik %{dict19} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict20}
-Summary:	The %{dict20} Dictionary for dictd
+Summary:	The %{dict20} dictionary for dictd
 Summary(pl):	S這wnik %{dict20} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -422,7 +421,7 @@ Ten pakiet zawiera s這wnik %{dict20} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict21}
-Summary:	The %{dict21} Dictionary for dictd
+Summary:	The %{dict21} dictionary for dictd
 Summary(pl):	S這wnik %{dict21} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -437,7 +436,7 @@ Ten pakiet zawiera s這wnik %{dict21} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict22}
-Summary:	The %{dict22} Dictionary for dictd
+Summary:	The %{dict22} dictionary for dictd
 Summary(pl):	S這wnik %{dict22} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -452,7 +451,7 @@ Ten pakiet zawiera s這wnik %{dict22} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict23}
-Summary:	The %{dict23} Dictionary for dictd
+Summary:	The %{dict23} dictionary for dictd
 Summary(pl):	S這wnik %{dict23} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -467,7 +466,7 @@ Ten pakiet zawiera s這wnik %{dict23} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict24}
-Summary:	The %{dict24} Dictionary for dictd
+Summary:	The %{dict24} dictionary for dictd
 Summary(pl):	S這wnik %{dict24} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -482,7 +481,7 @@ Ten pakiet zawiera s這wnik %{dict24} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict25}
-Summary:	The %{dict25} Dictionary for dictd
+Summary:	The %{dict25} dictionary for dictd
 Summary(pl):	S這wnik %{dict25} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -497,7 +496,7 @@ Ten pakiet zawiera s這wnik %{dict25} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict26}
-Summary:	The %{dict26} Dictionary for dictd
+Summary:	The %{dict26} dictionary for dictd
 Summary(pl):	S這wnik %{dict26} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -512,7 +511,7 @@ Ten pakiet zawiera s這wnik %{dict26} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict27}
-Summary:	The %{dict27} Dictionary for dictd
+Summary:	The %{dict27} dictionary for dictd
 Summary(pl):	S這wnik %{dict27} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -527,7 +526,7 @@ Ten pakiet zawiera s這wnik %{dict27} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict28}
-Summary:	The %{dict28} Dictionary for dictd
+Summary:	The %{dict28} dictionary for dictd
 Summary(pl):	S這wnik %{dict28} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -542,7 +541,7 @@ Ten pakiet zawiera s這wnik %{dict28} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict29}
-Summary:	The %{dict29} Dictionary for dictd
+Summary:	The %{dict29} dictionary for dictd
 Summary(pl):	S這wnik %{dict29} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -557,7 +556,7 @@ Ten pakiet zawiera s這wnik %{dict29} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict30}
-Summary:	The %{dict30} Dictionary for dictd
+Summary:	The %{dict30} dictionary for dictd
 Summary(pl):	S這wnik %{dict30} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -572,7 +571,7 @@ Ten pakiet zawiera s這wnik %{dict30} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict31}
-Summary:	The %{dict31} Dictionary for dictd
+Summary:	The %{dict31} dictionary for dictd
 Summary(pl):	S這wnik %{dict31} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -587,7 +586,7 @@ Ten pakiet zawiera s這wnik %{dict31} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict32}
-Summary:	The %{dict32} Dictionary for dictd
+Summary:	The %{dict32} dictionary for dictd
 Summary(pl):	S這wnik %{dict32} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -602,7 +601,7 @@ Ten pakiet zawiera s這wnik %{dict32} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict33}
-Summary:	The %{dict33} Dictionary for dictd
+Summary:	The %{dict33} dictionary for dictd
 Summary(pl):	S這wnik %{dict33} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -617,7 +616,7 @@ Ten pakiet zawiera s這wnik %{dict33} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict34}
-Summary:	The %{dict34} Dictionary for dictd
+Summary:	The %{dict34} dictionary for dictd
 Summary(pl):	S這wnik %{dict34} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -632,7 +631,7 @@ Ten pakiet zawiera s這wnik %{dict34} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict35}
-Summary:	The %{dict35} Dictionary for dictd
+Summary:	The %{dict35} dictionary for dictd
 Summary(pl):	S這wnik %{dict35} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -647,7 +646,7 @@ Ten pakiet zawiera s這wnik %{dict35} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict36}
-Summary:	The %{dict36} Dictionary for dictd
+Summary:	The %{dict36} dictionary for dictd
 Summary(pl):	S這wnik %{dict36} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -662,7 +661,7 @@ Ten pakiet zawiera s這wnik %{dict36} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict37}
-Summary:	The %{dict37} Dictionary for dictd
+Summary:	The %{dict37} dictionary for dictd
 Summary(pl):	S這wnik %{dict37} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -677,7 +676,7 @@ Ten pakiet zawiera s這wnik %{dict37} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict38}
-Summary:	The %{dict38} Dictionary for dictd
+Summary:	The %{dict38} dictionary for dictd
 Summary(pl):	S這wnik %{dict38} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -692,7 +691,7 @@ Ten pakiet zawiera s這wnik %{dict38} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict39}
-Summary:	The %{dict39} Dictionary for dictd
+Summary:	The %{dict39} dictionary for dictd
 Summary(pl):	S這wnik %{dict39} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -707,7 +706,7 @@ Ten pakiet zawiera s這wnik %{dict39} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict40}
-Summary:	The %{dict40} Dictionary for dictd
+Summary:	The %{dict40} dictionary for dictd
 Summary(pl):	S這wnik %{dict40} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -722,7 +721,7 @@ Ten pakiet zawiera s這wnik %{dict40} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict41}
-Summary:	The %{dict41} Dictionary for dictd
+Summary:	The %{dict41} dictionary for dictd
 Summary(pl):	S這wnik %{dict41} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -737,7 +736,7 @@ Ten pakiet zawiera s這wnik %{dict41} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict42}
-Summary:	The %{dict42} Dictionary for dictd
+Summary:	The %{dict42} dictionary for dictd
 Summary(pl):	S這wnik %{dict42} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -752,7 +751,7 @@ Ten pakiet zawiera s這wnik %{dict42} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict43}
-Summary:	The %{dict43} Dictionary for dictd
+Summary:	The %{dict43} dictionary for dictd
 Summary(pl):	S這wnik %{dict43} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -767,7 +766,7 @@ Ten pakiet zawiera s這wnik %{dict43} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict44}
-Summary:	The %{dict44} Dictionary for dictd
+Summary:	The %{dict44} dictionary for dictd
 Summary(pl):	S這wnik %{dict44} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -782,7 +781,7 @@ Ten pakiet zawiera s這wnik %{dict44} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict45}
-Summary:	The %{dict45} Dictionary for dictd
+Summary:	The %{dict45} dictionary for dictd
 Summary(pl):	S這wnik %{dict45} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -797,7 +796,7 @@ Ten pakiet zawiera s這wnik %{dict45} do u篡wania z serwerem s這wnika
 dictd.
 
 %package %{dict46}
-Summary:	The %{dict46} Dictionary for dictd
+Summary:	The %{dict46} dictionary for dictd
 Summary(pl):	S這wnik %{dict46} dla dictd
 Group:		Applications/Dictionaries
 Requires:	dictd
@@ -821,7 +820,7 @@ echo "Making %{dictionaries}"
 for i in %{dictionaries}; do
 	mv $i.dict.dz $i.gz
 	gunzip $i.gz
-	dictfmt -f -u "%{URL}" -s "$i Freedict dictionary" %{dictname}_$i < $i
+	dictfmt -f -u "%url" -s "$i Freedict dictionary" %{dictname}_$i < $i
 	dictzip %{dictname}_$i.dict
 done
 
@@ -841,16 +840,6 @@ done
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
-
-%postun
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
-fi
 
 %post %{dict1}
 if [ -f /var/lock/subsys/dictd ]; then
