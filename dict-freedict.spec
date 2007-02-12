@@ -71,7 +71,7 @@
 %define dictionaries %{dicts0} %{dicts1} %{dicts2} %{dicts3} %{dicts4} %{dicts5} %{dicts6} %{dicts7}
 
 Summary:	The free bilingual dictionaries for dictd
-Summary(pl):	Darmowe dwujêzykowe s³owniki dla dictd
+Summary(pl.UTF-8):   Darmowe dwujÄ™zykowe sÅ‚owniki dla dictd
 Name:		dict-%{dictname}
 Version:	20030508
 Release:	3
@@ -202,13 +202,13 @@ This package contains the free bilingual dictionaries, version
 %{version} formatted for use by the dictionary server in the dictd
 package.
 
-%description -l pl
-Ten pakiet zawiera darmowe dwujêzyczne s³owniki w wersji %{version}
-sformatowane do u¿ytku z serwerem s³ownika dictd.
+%description -l pl.UTF-8
+Ten pakiet zawiera darmowe dwujÄ™zyczne sÅ‚owniki w wersji %{version}
+sformatowane do uÅ¼ytku z serwerem sÅ‚ownika dictd.
 
 %package %{dict0}
 Summary:	The %{dict0} dictionary for dictd
-Summary(pl):	S³ownik %{dict0} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict0} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -217,13 +217,13 @@ Requires:	dictd
 This package contains %{dict0} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict0} -l pl
-Ten pakiet zawiera s³ownik %{dict0} do u¿ywania z serwerem s³ownika
+%description %{dict0} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict0} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict1}
 Summary:	The %{dict1} dictionary for dictd
-Summary(pl):	S³ownik %{dict1} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict1} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -232,13 +232,13 @@ Requires:	dictd
 This package contains %{dict1} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict1} -l pl
-Ten pakiet zawiera s³ownik %{dict1} do u¿ywania z serwerem s³ownika
+%description %{dict1} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict1} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict2}
 Summary:	The %{dict2} dictionary for dictd
-Summary(pl):	S³ownik %{dict2} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict2} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -247,13 +247,13 @@ Requires:	dictd
 This package contains %{dict2} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict2} -l pl
-Ten pakiet zawiera s³ownik %{dict2} do u¿ywania z serwerem s³ownika
+%description %{dict2} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict2} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict3}
 Summary:	The %{dict3} dictionary for dictd
-Summary(pl):	S³ownik %{dict3} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict3} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -262,13 +262,13 @@ Requires:	dictd
 This package contains %{dict3} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict3} -l pl
-Ten pakiet zawiera s³ownik %{dict3} do u¿ywania z serwerem s³ownika
+%description %{dict3} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict3} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict4}
 Summary:	The %{dict4} dictionary for dictd
-Summary(pl):	S³ownik %{dict4} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict4} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -277,13 +277,13 @@ Requires:	dictd
 This package contains %{dict4} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict4} -l pl
-Ten pakiet zawiera s³ownik %{dict4} do u¿ywania z serwerem s³ownika
+%description %{dict4} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict4} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict5}
 Summary:	The %{dict5} dictionary for dictd
-Summary(pl):	S³ownik %{dict5} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict5} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -292,13 +292,13 @@ Requires:	dictd
 This package contains %{dict5} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict5} -l pl
-Ten pakiet zawiera s³ownik %{dict5} do u¿ywania z serwerem s³ownika
+%description %{dict5} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict5} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict6}
 Summary:	The %{dict6} dictionary for dictd
-Summary(pl):	S³ownik %{dict6} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict6} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -307,13 +307,13 @@ Requires:	dictd
 This package contains %{dict6} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict6} -l pl
-Ten pakiet zawiera s³ownik %{dict6} do u¿ywania z serwerem s³ownika
+%description %{dict6} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict6} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict7}
 Summary:	The %{dict7} dictionary for dictd
-Summary(pl):	S³ownik %{dict7} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict7} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -322,13 +322,13 @@ Requires:	dictd
 This package contains %{dict7} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict7} -l pl
-Ten pakiet zawiera s³ownik %{dict7} do u¿ywania z serwerem s³ownika
+%description %{dict7} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict7} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict8}
 Summary:	The %{dict8} dictionary for dictd
-Summary(pl):	S³ownik %{dict8} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict8} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -337,13 +337,13 @@ Requires:	dictd
 This package contains %{dict8} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict8} -l pl
-Ten pakiet zawiera s³ownik %{dict8} do u¿ywania z serwerem s³ownika
+%description %{dict8} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict8} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict9}
 Summary:	The %{dict9} dictionary for dictd
-Summary(pl):	S³ownik %{dict9} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict9} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -352,13 +352,13 @@ Requires:	dictd
 This package contains %{dict9} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict9} -l pl
-Ten pakiet zawiera s³ownik %{dict9} do u¿ywania z serwerem s³ownika
+%description %{dict9} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict9} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict10}
 Summary:	The %{dict10} dictionary for dictd
-Summary(pl):	S³ownik %{dict10} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict10} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -367,13 +367,13 @@ Requires:	dictd
 This package contains %{dict10} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict10} -l pl
-Ten pakiet zawiera s³ownik %{dict10} do u¿ywania z serwerem s³ownika
+%description %{dict10} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict10} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict11}
 Summary:	The %{dict11} dictionary for dictd
-Summary(pl):	S³ownik %{dict11} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict11} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -382,13 +382,13 @@ Requires:	dictd
 This package contains %{dict11} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict11} -l pl
-Ten pakiet zawiera s³ownik %{dict11} do u¿ywania z serwerem s³ownika
+%description %{dict11} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict11} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict12}
 Summary:	The %{dict12} dictionary for dictd
-Summary(pl):	S³ownik %{dict12} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict12} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -397,13 +397,13 @@ Requires:	dictd
 This package contains %{dict12} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict12} -l pl
-Ten pakiet zawiera s³ownik %{dict12} do u¿ywania z serwerem s³ownika
+%description %{dict12} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict12} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict13}
 Summary:	The %{dict13} dictionary for dictd
-Summary(pl):	S³ownik %{dict13} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict13} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -412,13 +412,13 @@ Requires:	dictd
 This package contains %{dict13} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict13} -l pl
-Ten pakiet zawiera s³ownik %{dict13} do u¿ywania z serwerem s³ownika
+%description %{dict13} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict13} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict14}
 Summary:	The %{dict14} dictionary for dictd
-Summary(pl):	S³ownik %{dict14} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict14} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -427,13 +427,13 @@ Requires:	dictd
 This package contains %{dict14} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict14} -l pl
-Ten pakiet zawiera s³ownik %{dict14} do u¿ywania z serwerem s³ownika
+%description %{dict14} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict14} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict15}
 Summary:	The %{dict15} dictionary for dictd
-Summary(pl):	S³ownik %{dict15} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict15} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -442,13 +442,13 @@ Requires:	dictd
 This package contains %{dict15} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict15} -l pl
-Ten pakiet zawiera s³ownik %{dict15} do u¿ywania z serwerem s³ownika
+%description %{dict15} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict15} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict16}
 Summary:	The %{dict16} dictionary for dictd
-Summary(pl):	S³ownik %{dict16} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict16} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -457,13 +457,13 @@ Requires:	dictd
 This package contains %{dict16} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict16} -l pl
-Ten pakiet zawiera s³ownik %{dict16} do u¿ywania z serwerem s³ownika
+%description %{dict16} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict16} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict17}
 Summary:	The %{dict17} dictionary for dictd
-Summary(pl):	S³ownik %{dict17} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict17} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -472,13 +472,13 @@ Requires:	dictd
 This package contains %{dict17} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict17} -l pl
-Ten pakiet zawiera s³ownik %{dict17} do u¿ywania z serwerem s³ownika
+%description %{dict17} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict17} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict18}
 Summary:	The %{dict18} dictionary for dictd
-Summary(pl):	S³ownik %{dict18} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict18} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -487,13 +487,13 @@ Requires:	dictd
 This package contains %{dict18} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict18} -l pl
-Ten pakiet zawiera s³ownik %{dict18} do u¿ywania z serwerem s³ownika
+%description %{dict18} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict18} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict19}
 Summary:	The %{dict19} dictionary for dictd
-Summary(pl):	S³ownik %{dict19} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict19} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -502,13 +502,13 @@ Requires:	dictd
 This package contains %{dict19} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict19} -l pl
-Ten pakiet zawiera s³ownik %{dict19} do u¿ywania z serwerem s³ownika
+%description %{dict19} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict19} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict20}
 Summary:	The %{dict20} dictionary for dictd
-Summary(pl):	S³ownik %{dict20} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict20} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -517,13 +517,13 @@ Requires:	dictd
 This package contains %{dict20} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict20} -l pl
-Ten pakiet zawiera s³ownik %{dict20} do u¿ywania z serwerem s³ownika
+%description %{dict20} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict20} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict21}
 Summary:	The %{dict21} dictionary for dictd
-Summary(pl):	S³ownik %{dict21} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict21} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -532,13 +532,13 @@ Requires:	dictd
 This package contains %{dict21} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict21} -l pl
-Ten pakiet zawiera s³ownik %{dict21} do u¿ywania z serwerem s³ownika
+%description %{dict21} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict21} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict22}
 Summary:	The %{dict22} dictionary for dictd
-Summary(pl):	S³ownik %{dict22} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict22} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -547,13 +547,13 @@ Requires:	dictd
 This package contains %{dict22} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict22} -l pl
-Ten pakiet zawiera s³ownik %{dict22} do u¿ywania z serwerem s³ownika
+%description %{dict22} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict22} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict23}
 Summary:	The %{dict23} dictionary for dictd
-Summary(pl):	S³ownik %{dict23} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict23} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -562,13 +562,13 @@ Requires:	dictd
 This package contains %{dict23} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict23} -l pl
-Ten pakiet zawiera s³ownik %{dict23} do u¿ywania z serwerem s³ownika
+%description %{dict23} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict23} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict24}
 Summary:	The %{dict24} dictionary for dictd
-Summary(pl):	S³ownik %{dict24} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict24} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -577,13 +577,13 @@ Requires:	dictd
 This package contains %{dict24} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict24} -l pl
-Ten pakiet zawiera s³ownik %{dict24} do u¿ywania z serwerem s³ownika
+%description %{dict24} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict24} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict25}
 Summary:	The %{dict25} dictionary for dictd
-Summary(pl):	S³ownik %{dict25} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict25} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -592,13 +592,13 @@ Requires:	dictd
 This package contains %{dict25} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict25} -l pl
-Ten pakiet zawiera s³ownik %{dict25} do u¿ywania z serwerem s³ownika
+%description %{dict25} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict25} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict26}
 Summary:	The %{dict26} dictionary for dictd
-Summary(pl):	S³ownik %{dict26} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict26} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -607,13 +607,13 @@ Requires:	dictd
 This package contains %{dict26} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict26} -l pl
-Ten pakiet zawiera s³ownik %{dict26} do u¿ywania z serwerem s³ownika
+%description %{dict26} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict26} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict27}
 Summary:	The %{dict27} dictionary for dictd
-Summary(pl):	S³ownik %{dict27} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict27} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -622,13 +622,13 @@ Requires:	dictd
 This package contains %{dict27} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict27} -l pl
-Ten pakiet zawiera s³ownik %{dict27} do u¿ywania z serwerem s³ownika
+%description %{dict27} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict27} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict28}
 Summary:	The %{dict28} dictionary for dictd
-Summary(pl):	S³ownik %{dict28} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict28} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -637,13 +637,13 @@ Requires:	dictd
 This package contains %{dict28} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict28} -l pl
-Ten pakiet zawiera s³ownik %{dict28} do u¿ywania z serwerem s³ownika
+%description %{dict28} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict28} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict29}
 Summary:	The %{dict29} dictionary for dictd
-Summary(pl):	S³ownik %{dict29} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict29} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -652,13 +652,13 @@ Requires:	dictd
 This package contains %{dict29} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict29} -l pl
-Ten pakiet zawiera s³ownik %{dict29} do u¿ywania z serwerem s³ownika
+%description %{dict29} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict29} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict30}
 Summary:	The %{dict30} dictionary for dictd
-Summary(pl):	S³ownik %{dict30} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict30} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -667,13 +667,13 @@ Requires:	dictd
 This package contains %{dict30} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict30} -l pl
-Ten pakiet zawiera s³ownik %{dict30} do u¿ywania z serwerem s³ownika
+%description %{dict30} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict30} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict31}
 Summary:	The %{dict31} dictionary for dictd
-Summary(pl):	S³ownik %{dict31} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict31} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -682,13 +682,13 @@ Requires:	dictd
 This package contains %{dict31} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict31} -l pl
-Ten pakiet zawiera s³ownik %{dict31} do u¿ywania z serwerem s³ownika
+%description %{dict31} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict31} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict32}
 Summary:	The %{dict32} dictionary for dictd
-Summary(pl):	S³ownik %{dict32} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict32} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -697,13 +697,13 @@ Requires:	dictd
 This package contains %{dict32} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict32} -l pl
-Ten pakiet zawiera s³ownik %{dict32} do u¿ywania z serwerem s³ownika
+%description %{dict32} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict32} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict33}
 Summary:	The %{dict33} dictionary for dictd
-Summary(pl):	S³ownik %{dict33} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict33} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -712,13 +712,13 @@ Requires:	dictd
 This package contains %{dict33} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict33} -l pl
-Ten pakiet zawiera s³ownik %{dict33} do u¿ywania z serwerem s³ownika
+%description %{dict33} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict33} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict34}
 Summary:	The %{dict34} dictionary for dictd
-Summary(pl):	S³ownik %{dict34} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict34} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -727,13 +727,13 @@ Requires:	dictd
 This package contains %{dict34} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict34} -l pl
-Ten pakiet zawiera s³ownik %{dict34} do u¿ywania z serwerem s³ownika
+%description %{dict34} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict34} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict35}
 Summary:	The %{dict35} dictionary for dictd
-Summary(pl):	S³ownik %{dict35} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict35} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -742,13 +742,13 @@ Requires:	dictd
 This package contains %{dict35} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict35} -l pl
-Ten pakiet zawiera s³ownik %{dict35} do u¿ywania z serwerem s³ownika
+%description %{dict35} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict35} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict36}
 Summary:	The %{dict36} dictionary for dictd
-Summary(pl):	S³ownik %{dict36} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict36} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -757,13 +757,13 @@ Requires:	dictd
 This package contains %{dict36} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict36} -l pl
-Ten pakiet zawiera s³ownik %{dict36} do u¿ywania z serwerem s³ownika
+%description %{dict36} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict36} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict37}
 Summary:	The %{dict37} dictionary for dictd
-Summary(pl):	S³ownik %{dict37} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict37} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -772,13 +772,13 @@ Requires:	dictd
 This package contains %{dict37} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict37} -l pl
-Ten pakiet zawiera s³ownik %{dict37} do u¿ywania z serwerem s³ownika
+%description %{dict37} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict37} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict38}
 Summary:	The %{dict38} dictionary for dictd
-Summary(pl):	S³ownik %{dict38} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict38} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -787,13 +787,13 @@ Requires:	dictd
 This package contains %{dict38} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict38} -l pl
-Ten pakiet zawiera s³ownik %{dict38} do u¿ywania z serwerem s³ownika
+%description %{dict38} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict38} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict39}
 Summary:	The %{dict39} dictionary for dictd
-Summary(pl):	S³ownik %{dict39} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict39} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -802,13 +802,13 @@ Requires:	dictd
 This package contains %{dict39} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict39} -l pl
-Ten pakiet zawiera s³ownik %{dict39} do u¿ywania z serwerem s³ownika
+%description %{dict39} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict39} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict40}
 Summary:	The %{dict40} dictionary for dictd
-Summary(pl):	S³ownik %{dict40} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict40} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -817,13 +817,13 @@ Requires:	dictd
 This package contains %{dict40} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict40} -l pl
-Ten pakiet zawiera s³ownik %{dict40} do u¿ywania z serwerem s³ownika
+%description %{dict40} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict40} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict41}
 Summary:	The %{dict41} dictionary for dictd
-Summary(pl):	S³ownik %{dict41} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict41} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -832,13 +832,13 @@ Requires:	dictd
 This package contains %{dict41} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict41} -l pl
-Ten pakiet zawiera s³ownik %{dict41} do u¿ywania z serwerem s³ownika
+%description %{dict41} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict41} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict42}
 Summary:	The %{dict42} dictionary for dictd
-Summary(pl):	S³ownik %{dict42} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict42} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -847,13 +847,13 @@ Requires:	dictd
 This package contains %{dict42} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict42} -l pl
-Ten pakiet zawiera s³ownik %{dict42} do u¿ywania z serwerem s³ownika
+%description %{dict42} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict42} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict43}
 Summary:	The %{dict43} dictionary for dictd
-Summary(pl):	S³ownik %{dict43} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict43} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -862,13 +862,13 @@ Requires:	dictd
 This package contains %{dict43} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict43} -l pl
-Ten pakiet zawiera s³ownik %{dict43} do u¿ywania z serwerem s³ownika
+%description %{dict43} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict43} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict44}
 Summary:	The %{dict44} dictionary for dictd
-Summary(pl):	S³ownik %{dict44} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict44} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -877,13 +877,13 @@ Requires:	dictd
 This package contains %{dict44} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict44} -l pl
-Ten pakiet zawiera s³ownik %{dict44} do u¿ywania z serwerem s³ownika
+%description %{dict44} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict44} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict45}
 Summary:	The %{dict45} dictionary for dictd
-Summary(pl):	S³ownik %{dict45} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict45} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -892,13 +892,13 @@ Requires:	dictd
 This package contains %{dict45} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict45} -l pl
-Ten pakiet zawiera s³ownik %{dict45} do u¿ywania z serwerem s³ownika
+%description %{dict45} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict45} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict46}
 Summary:	The %{dict46} dictionary for dictd
-Summary(pl):	S³ownik %{dict46} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict46} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -907,13 +907,13 @@ Requires:	dictd
 This package contains %{dict46} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict46} -l pl
-Ten pakiet zawiera s³ownik %{dict46} do u¿ywania z serwerem s³ownika
+%description %{dict46} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict46} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict47}
 Summary:	The %{dict47} dictionary for dictd
-Summary(pl):	S³ownik %{dict47} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict47} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -922,13 +922,13 @@ Requires:	dictd
 This package contains %{dict47} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict47} -l pl
-Ten pakiet zawiera s³ownik %{dict47} do u¿ywania z serwerem s³ownika
+%description %{dict47} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict47} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict48}
 Summary:	The %{dict48} dictionary for dictd
-Summary(pl):	S³ownik %{dict48} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict48} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -937,13 +937,13 @@ Requires:	dictd
 This package contains %{dict48} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict48} -l pl
-Ten pakiet zawiera s³ownik %{dict48} do u¿ywania z serwerem s³ownika
+%description %{dict48} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict48} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict49}
 Summary:	The %{dict49} dictionary for dictd
-Summary(pl):	S³ownik %{dict49} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict49} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -952,13 +952,13 @@ Requires:	dictd
 This package contains %{dict49} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict49} -l pl
-Ten pakiet zawiera s³ownik %{dict49} do u¿ywania z serwerem s³ownika
+%description %{dict49} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict49} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict50}
 Summary:	The %{dict50} dictionary for dictd
-Summary(pl):	S³ownik %{dict50} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict50} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -967,13 +967,13 @@ Requires:	dictd
 This package contains %{dict50} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict50} -l pl
-Ten pakiet zawiera s³ownik %{dict50} do u¿ywania z serwerem s³ownika
+%description %{dict50} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict50} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict51}
 Summary:	The %{dict51} dictionary for dictd
-Summary(pl):	S³ownik %{dict51} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict51} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -982,13 +982,13 @@ Requires:	dictd
 This package contains %{dict51} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict51} -l pl
-Ten pakiet zawiera s³ownik %{dict51} do u¿ywania z serwerem s³ownika
+%description %{dict51} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict51} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %package %{dict52}
 Summary:	The %{dict52} dictionary for dictd
-Summary(pl):	S³ownik %{dict52} dla dictd
+Summary(pl.UTF-8):   SÅ‚ownik %{dict52} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -997,8 +997,8 @@ Requires:	dictd
 This package contains %{dict52} dictionaries for use by the dictionary
 server in the dictd package.
 
-%description %{dict52} -l pl
-Ten pakiet zawiera s³ownik %{dict52} do u¿ywania z serwerem s³ownika
+%description %{dict52} -l pl.UTF-8
+Ten pakiet zawiera sÅ‚ownik %{dict52} do uÅ¼ywania z serwerem sÅ‚ownika
 dictd.
 
 %prep
