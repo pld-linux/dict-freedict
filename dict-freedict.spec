@@ -71,7 +71,7 @@
 %define dictionaries %{dicts0} %{dicts1} %{dicts2} %{dicts3} %{dicts4} %{dicts5} %{dicts6} %{dicts7}
 
 Summary:	The free bilingual dictionaries for dictd
-Summary(pl.UTF-8):   Darmowe dwujęzykowe słowniki dla dictd
+Summary(pl.UTF-8):	Darmowe dwujęzykowe słowniki dla dictd
 Name:		dict-%{dictname}
 Version:	20030508
 Release:	3
@@ -208,7 +208,7 @@ sformatowane do użytku z serwerem słownika dictd.
 
 %package %{dict0}
 Summary:	The %{dict0} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict0} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict0} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -223,7 +223,7 @@ dictd.
 
 %package %{dict1}
 Summary:	The %{dict1} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict1} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict1} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -238,7 +238,7 @@ dictd.
 
 %package %{dict2}
 Summary:	The %{dict2} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict2} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict2} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -253,7 +253,7 @@ dictd.
 
 %package %{dict3}
 Summary:	The %{dict3} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict3} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict3} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -268,7 +268,7 @@ dictd.
 
 %package %{dict4}
 Summary:	The %{dict4} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict4} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict4} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -283,7 +283,7 @@ dictd.
 
 %package %{dict5}
 Summary:	The %{dict5} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict5} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict5} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -298,7 +298,7 @@ dictd.
 
 %package %{dict6}
 Summary:	The %{dict6} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict6} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict6} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -313,7 +313,7 @@ dictd.
 
 %package %{dict7}
 Summary:	The %{dict7} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict7} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict7} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -328,7 +328,7 @@ dictd.
 
 %package %{dict8}
 Summary:	The %{dict8} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict8} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict8} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -343,7 +343,7 @@ dictd.
 
 %package %{dict9}
 Summary:	The %{dict9} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict9} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict9} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -358,7 +358,7 @@ dictd.
 
 %package %{dict10}
 Summary:	The %{dict10} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict10} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict10} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -373,7 +373,7 @@ dictd.
 
 %package %{dict11}
 Summary:	The %{dict11} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict11} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict11} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -388,7 +388,7 @@ dictd.
 
 %package %{dict12}
 Summary:	The %{dict12} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict12} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict12} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -403,7 +403,7 @@ dictd.
 
 %package %{dict13}
 Summary:	The %{dict13} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict13} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict13} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -418,7 +418,7 @@ dictd.
 
 %package %{dict14}
 Summary:	The %{dict14} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict14} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict14} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -433,7 +433,7 @@ dictd.
 
 %package %{dict15}
 Summary:	The %{dict15} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict15} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict15} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -448,7 +448,7 @@ dictd.
 
 %package %{dict16}
 Summary:	The %{dict16} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict16} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict16} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -463,7 +463,7 @@ dictd.
 
 %package %{dict17}
 Summary:	The %{dict17} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict17} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict17} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -478,7 +478,7 @@ dictd.
 
 %package %{dict18}
 Summary:	The %{dict18} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict18} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict18} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -493,7 +493,7 @@ dictd.
 
 %package %{dict19}
 Summary:	The %{dict19} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict19} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict19} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -508,7 +508,7 @@ dictd.
 
 %package %{dict20}
 Summary:	The %{dict20} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict20} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict20} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -523,7 +523,7 @@ dictd.
 
 %package %{dict21}
 Summary:	The %{dict21} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict21} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict21} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -538,7 +538,7 @@ dictd.
 
 %package %{dict22}
 Summary:	The %{dict22} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict22} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict22} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -553,7 +553,7 @@ dictd.
 
 %package %{dict23}
 Summary:	The %{dict23} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict23} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict23} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -568,7 +568,7 @@ dictd.
 
 %package %{dict24}
 Summary:	The %{dict24} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict24} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict24} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -583,7 +583,7 @@ dictd.
 
 %package %{dict25}
 Summary:	The %{dict25} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict25} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict25} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -598,7 +598,7 @@ dictd.
 
 %package %{dict26}
 Summary:	The %{dict26} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict26} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict26} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -613,7 +613,7 @@ dictd.
 
 %package %{dict27}
 Summary:	The %{dict27} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict27} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict27} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -628,7 +628,7 @@ dictd.
 
 %package %{dict28}
 Summary:	The %{dict28} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict28} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict28} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -643,7 +643,7 @@ dictd.
 
 %package %{dict29}
 Summary:	The %{dict29} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict29} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict29} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -658,7 +658,7 @@ dictd.
 
 %package %{dict30}
 Summary:	The %{dict30} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict30} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict30} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -673,7 +673,7 @@ dictd.
 
 %package %{dict31}
 Summary:	The %{dict31} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict31} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict31} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -688,7 +688,7 @@ dictd.
 
 %package %{dict32}
 Summary:	The %{dict32} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict32} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict32} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -703,7 +703,7 @@ dictd.
 
 %package %{dict33}
 Summary:	The %{dict33} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict33} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict33} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -718,7 +718,7 @@ dictd.
 
 %package %{dict34}
 Summary:	The %{dict34} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict34} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict34} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -733,7 +733,7 @@ dictd.
 
 %package %{dict35}
 Summary:	The %{dict35} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict35} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict35} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -748,7 +748,7 @@ dictd.
 
 %package %{dict36}
 Summary:	The %{dict36} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict36} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict36} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -763,7 +763,7 @@ dictd.
 
 %package %{dict37}
 Summary:	The %{dict37} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict37} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict37} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -778,7 +778,7 @@ dictd.
 
 %package %{dict38}
 Summary:	The %{dict38} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict38} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict38} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -793,7 +793,7 @@ dictd.
 
 %package %{dict39}
 Summary:	The %{dict39} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict39} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict39} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -808,7 +808,7 @@ dictd.
 
 %package %{dict40}
 Summary:	The %{dict40} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict40} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict40} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -823,7 +823,7 @@ dictd.
 
 %package %{dict41}
 Summary:	The %{dict41} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict41} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict41} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -838,7 +838,7 @@ dictd.
 
 %package %{dict42}
 Summary:	The %{dict42} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict42} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict42} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -853,7 +853,7 @@ dictd.
 
 %package %{dict43}
 Summary:	The %{dict43} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict43} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict43} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -868,7 +868,7 @@ dictd.
 
 %package %{dict44}
 Summary:	The %{dict44} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict44} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict44} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -883,7 +883,7 @@ dictd.
 
 %package %{dict45}
 Summary:	The %{dict45} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict45} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict45} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -898,7 +898,7 @@ dictd.
 
 %package %{dict46}
 Summary:	The %{dict46} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict46} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict46} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -913,7 +913,7 @@ dictd.
 
 %package %{dict47}
 Summary:	The %{dict47} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict47} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict47} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -928,7 +928,7 @@ dictd.
 
 %package %{dict48}
 Summary:	The %{dict48} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict48} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict48} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -943,7 +943,7 @@ dictd.
 
 %package %{dict49}
 Summary:	The %{dict49} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict49} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict49} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -958,7 +958,7 @@ dictd.
 
 %package %{dict50}
 Summary:	The %{dict50} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict50} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict50} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -973,7 +973,7 @@ dictd.
 
 %package %{dict51}
 Summary:	The %{dict51} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict51} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict51} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
@@ -988,7 +988,7 @@ dictd.
 
 %package %{dict52}
 Summary:	The %{dict52} dictionary for dictd
-Summary(pl.UTF-8):   Słownik %{dict52} dla dictd
+Summary(pl.UTF-8):	Słownik %{dict52} dla dictd
 Group:		Applications/Dictionaries
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
