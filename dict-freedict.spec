@@ -74,7 +74,7 @@ Summary:	The free bilingual dictionaries for dictd
 Summary(pl):	Darmowe dwuj瞛ykowe s這wniki dla dictd
 Name:		dict-%{dictname}
 Version:	20030508
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Dictionaries
 # also at ftp://ftp.sourceforge.net/pub/sourceforge/freedict/ if following wouldn't work
@@ -193,8 +193,8 @@ Source51:	http://freedict.sourceforge.net/download/linux/%{dict51}.tar.gz
 URL:		http://www.freedict.de/
 BuildRequires:	dictfmt
 BuildRequires:	dictzip
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -210,8 +210,8 @@ sformatowane do u篡tku z serwerem s這wnika dictd.
 Summary:	The %{dict0} dictionary for dictd
 Summary(pl):	S這wnik %{dict0} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict0}
 This package contains %{dict0} dictionaries for use by the dictionary
@@ -225,8 +225,8 @@ dictd.
 Summary:	The %{dict1} dictionary for dictd
 Summary(pl):	S這wnik %{dict1} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict1}
 This package contains %{dict1} dictionaries for use by the dictionary
@@ -240,8 +240,8 @@ dictd.
 Summary:	The %{dict2} dictionary for dictd
 Summary(pl):	S這wnik %{dict2} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict2}
 This package contains %{dict2} dictionaries for use by the dictionary
@@ -255,8 +255,8 @@ dictd.
 Summary:	The %{dict3} dictionary for dictd
 Summary(pl):	S這wnik %{dict3} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict3}
 This package contains %{dict3} dictionaries for use by the dictionary
@@ -270,8 +270,8 @@ dictd.
 Summary:	The %{dict4} dictionary for dictd
 Summary(pl):	S這wnik %{dict4} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict4}
 This package contains %{dict4} dictionaries for use by the dictionary
@@ -285,8 +285,8 @@ dictd.
 Summary:	The %{dict5} dictionary for dictd
 Summary(pl):	S這wnik %{dict5} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict5}
 This package contains %{dict5} dictionaries for use by the dictionary
@@ -300,8 +300,8 @@ dictd.
 Summary:	The %{dict6} dictionary for dictd
 Summary(pl):	S這wnik %{dict6} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict6}
 This package contains %{dict6} dictionaries for use by the dictionary
@@ -315,8 +315,8 @@ dictd.
 Summary:	The %{dict7} dictionary for dictd
 Summary(pl):	S這wnik %{dict7} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict7}
 This package contains %{dict7} dictionaries for use by the dictionary
@@ -330,8 +330,8 @@ dictd.
 Summary:	The %{dict8} dictionary for dictd
 Summary(pl):	S這wnik %{dict8} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict8}
 This package contains %{dict8} dictionaries for use by the dictionary
@@ -345,8 +345,8 @@ dictd.
 Summary:	The %{dict9} dictionary for dictd
 Summary(pl):	S這wnik %{dict9} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict9}
 This package contains %{dict9} dictionaries for use by the dictionary
@@ -360,8 +360,8 @@ dictd.
 Summary:	The %{dict10} dictionary for dictd
 Summary(pl):	S這wnik %{dict10} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict10}
 This package contains %{dict10} dictionaries for use by the dictionary
@@ -375,8 +375,8 @@ dictd.
 Summary:	The %{dict11} dictionary for dictd
 Summary(pl):	S這wnik %{dict11} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict11}
 This package contains %{dict11} dictionaries for use by the dictionary
@@ -390,8 +390,8 @@ dictd.
 Summary:	The %{dict12} dictionary for dictd
 Summary(pl):	S這wnik %{dict12} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict12}
 This package contains %{dict12} dictionaries for use by the dictionary
@@ -405,8 +405,8 @@ dictd.
 Summary:	The %{dict13} dictionary for dictd
 Summary(pl):	S這wnik %{dict13} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict13}
 This package contains %{dict13} dictionaries for use by the dictionary
@@ -420,8 +420,8 @@ dictd.
 Summary:	The %{dict14} dictionary for dictd
 Summary(pl):	S這wnik %{dict14} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict14}
 This package contains %{dict14} dictionaries for use by the dictionary
@@ -435,8 +435,8 @@ dictd.
 Summary:	The %{dict15} dictionary for dictd
 Summary(pl):	S這wnik %{dict15} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict15}
 This package contains %{dict15} dictionaries for use by the dictionary
@@ -450,8 +450,8 @@ dictd.
 Summary:	The %{dict16} dictionary for dictd
 Summary(pl):	S這wnik %{dict16} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict16}
 This package contains %{dict16} dictionaries for use by the dictionary
@@ -465,8 +465,8 @@ dictd.
 Summary:	The %{dict17} dictionary for dictd
 Summary(pl):	S這wnik %{dict17} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict17}
 This package contains %{dict17} dictionaries for use by the dictionary
@@ -480,8 +480,8 @@ dictd.
 Summary:	The %{dict18} dictionary for dictd
 Summary(pl):	S這wnik %{dict18} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict18}
 This package contains %{dict18} dictionaries for use by the dictionary
@@ -495,8 +495,8 @@ dictd.
 Summary:	The %{dict19} dictionary for dictd
 Summary(pl):	S這wnik %{dict19} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict19}
 This package contains %{dict19} dictionaries for use by the dictionary
@@ -510,8 +510,8 @@ dictd.
 Summary:	The %{dict20} dictionary for dictd
 Summary(pl):	S這wnik %{dict20} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict20}
 This package contains %{dict20} dictionaries for use by the dictionary
@@ -525,8 +525,8 @@ dictd.
 Summary:	The %{dict21} dictionary for dictd
 Summary(pl):	S這wnik %{dict21} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict21}
 This package contains %{dict21} dictionaries for use by the dictionary
@@ -540,8 +540,8 @@ dictd.
 Summary:	The %{dict22} dictionary for dictd
 Summary(pl):	S這wnik %{dict22} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict22}
 This package contains %{dict22} dictionaries for use by the dictionary
@@ -555,8 +555,8 @@ dictd.
 Summary:	The %{dict23} dictionary for dictd
 Summary(pl):	S這wnik %{dict23} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict23}
 This package contains %{dict23} dictionaries for use by the dictionary
@@ -570,8 +570,8 @@ dictd.
 Summary:	The %{dict24} dictionary for dictd
 Summary(pl):	S這wnik %{dict24} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict24}
 This package contains %{dict24} dictionaries for use by the dictionary
@@ -585,8 +585,8 @@ dictd.
 Summary:	The %{dict25} dictionary for dictd
 Summary(pl):	S這wnik %{dict25} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict25}
 This package contains %{dict25} dictionaries for use by the dictionary
@@ -600,8 +600,8 @@ dictd.
 Summary:	The %{dict26} dictionary for dictd
 Summary(pl):	S這wnik %{dict26} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict26}
 This package contains %{dict26} dictionaries for use by the dictionary
@@ -615,8 +615,8 @@ dictd.
 Summary:	The %{dict27} dictionary for dictd
 Summary(pl):	S這wnik %{dict27} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict27}
 This package contains %{dict27} dictionaries for use by the dictionary
@@ -630,8 +630,8 @@ dictd.
 Summary:	The %{dict28} dictionary for dictd
 Summary(pl):	S這wnik %{dict28} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict28}
 This package contains %{dict28} dictionaries for use by the dictionary
@@ -645,8 +645,8 @@ dictd.
 Summary:	The %{dict29} dictionary for dictd
 Summary(pl):	S這wnik %{dict29} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict29}
 This package contains %{dict29} dictionaries for use by the dictionary
@@ -660,8 +660,8 @@ dictd.
 Summary:	The %{dict30} dictionary for dictd
 Summary(pl):	S這wnik %{dict30} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict30}
 This package contains %{dict30} dictionaries for use by the dictionary
@@ -675,8 +675,8 @@ dictd.
 Summary:	The %{dict31} dictionary for dictd
 Summary(pl):	S這wnik %{dict31} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict31}
 This package contains %{dict31} dictionaries for use by the dictionary
@@ -690,8 +690,8 @@ dictd.
 Summary:	The %{dict32} dictionary for dictd
 Summary(pl):	S這wnik %{dict32} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict32}
 This package contains %{dict32} dictionaries for use by the dictionary
@@ -705,8 +705,8 @@ dictd.
 Summary:	The %{dict33} dictionary for dictd
 Summary(pl):	S這wnik %{dict33} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict33}
 This package contains %{dict33} dictionaries for use by the dictionary
@@ -720,8 +720,8 @@ dictd.
 Summary:	The %{dict34} dictionary for dictd
 Summary(pl):	S這wnik %{dict34} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict34}
 This package contains %{dict34} dictionaries for use by the dictionary
@@ -735,8 +735,8 @@ dictd.
 Summary:	The %{dict35} dictionary for dictd
 Summary(pl):	S這wnik %{dict35} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict35}
 This package contains %{dict35} dictionaries for use by the dictionary
@@ -750,8 +750,8 @@ dictd.
 Summary:	The %{dict36} dictionary for dictd
 Summary(pl):	S這wnik %{dict36} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict36}
 This package contains %{dict36} dictionaries for use by the dictionary
@@ -765,8 +765,8 @@ dictd.
 Summary:	The %{dict37} dictionary for dictd
 Summary(pl):	S這wnik %{dict37} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict37}
 This package contains %{dict37} dictionaries for use by the dictionary
@@ -780,8 +780,8 @@ dictd.
 Summary:	The %{dict38} dictionary for dictd
 Summary(pl):	S這wnik %{dict38} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict38}
 This package contains %{dict38} dictionaries for use by the dictionary
@@ -795,8 +795,8 @@ dictd.
 Summary:	The %{dict39} dictionary for dictd
 Summary(pl):	S這wnik %{dict39} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict39}
 This package contains %{dict39} dictionaries for use by the dictionary
@@ -810,8 +810,8 @@ dictd.
 Summary:	The %{dict40} dictionary for dictd
 Summary(pl):	S這wnik %{dict40} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict40}
 This package contains %{dict40} dictionaries for use by the dictionary
@@ -825,8 +825,8 @@ dictd.
 Summary:	The %{dict41} dictionary for dictd
 Summary(pl):	S這wnik %{dict41} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict41}
 This package contains %{dict41} dictionaries for use by the dictionary
@@ -840,8 +840,8 @@ dictd.
 Summary:	The %{dict42} dictionary for dictd
 Summary(pl):	S這wnik %{dict42} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict42}
 This package contains %{dict42} dictionaries for use by the dictionary
@@ -855,8 +855,8 @@ dictd.
 Summary:	The %{dict43} dictionary for dictd
 Summary(pl):	S這wnik %{dict43} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict43}
 This package contains %{dict43} dictionaries for use by the dictionary
@@ -870,8 +870,8 @@ dictd.
 Summary:	The %{dict44} dictionary for dictd
 Summary(pl):	S這wnik %{dict44} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict44}
 This package contains %{dict44} dictionaries for use by the dictionary
@@ -885,8 +885,8 @@ dictd.
 Summary:	The %{dict45} dictionary for dictd
 Summary(pl):	S這wnik %{dict45} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict45}
 This package contains %{dict45} dictionaries for use by the dictionary
@@ -900,8 +900,8 @@ dictd.
 Summary:	The %{dict46} dictionary for dictd
 Summary(pl):	S這wnik %{dict46} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict46}
 This package contains %{dict46} dictionaries for use by the dictionary
@@ -915,8 +915,8 @@ dictd.
 Summary:	The %{dict47} dictionary for dictd
 Summary(pl):	S這wnik %{dict47} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict47}
 This package contains %{dict47} dictionaries for use by the dictionary
@@ -930,8 +930,8 @@ dictd.
 Summary:	The %{dict48} dictionary for dictd
 Summary(pl):	S這wnik %{dict48} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict48}
 This package contains %{dict48} dictionaries for use by the dictionary
@@ -945,8 +945,8 @@ dictd.
 Summary:	The %{dict49} dictionary for dictd
 Summary(pl):	S這wnik %{dict49} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict49}
 This package contains %{dict49} dictionaries for use by the dictionary
@@ -960,8 +960,8 @@ dictd.
 Summary:	The %{dict50} dictionary for dictd
 Summary(pl):	S這wnik %{dict50} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict50}
 This package contains %{dict50} dictionaries for use by the dictionary
@@ -975,8 +975,8 @@ dictd.
 Summary:	The %{dict51} dictionary for dictd
 Summary(pl):	S這wnik %{dict51} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict51}
 This package contains %{dict51} dictionaries for use by the dictionary
@@ -990,8 +990,8 @@ dictd.
 Summary:	The %{dict52} dictionary for dictd
 Summary(pl):	S這wnik %{dict52} dla dictd
 Group:		Applications/Dictionaries
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 
 %description %{dict52}
 This package contains %{dict52} dictionaries for use by the dictionary
@@ -1032,583 +1032,477 @@ done
 rm -rf $RPM_BUILD_ROOT
 
 %post %{dict0}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict0}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict1}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict1}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict2}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict2}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict3}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict3}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict4}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict4}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict5}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict5}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict6}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict6}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict7}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict7}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict8}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict8}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict9}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict9}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict10}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict10}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict11}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict11}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict12}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict12}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict13}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict13}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict14}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict14}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict15}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict15}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict16}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict16}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict17}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict17}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict18}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict18}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict19}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict19}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict20}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict20}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict21}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict21}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict22}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict22}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict23}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict23}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict24}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict24}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict25}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict25}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict26}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict26}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict27}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict27}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict28}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict28}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict29}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict29}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict30}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict30}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict31}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict31}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict32}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict32}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict33}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict33}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict34}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict34}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict35}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict35}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict36}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict36}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict37}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict37}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict38}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict38}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict39}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict39}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict40}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict40}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict41}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict41}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict42}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict42}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict43}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict43}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict44}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict44}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict45}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict45}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict46}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict46}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict47}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict47}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict48}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict48}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict49}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict49}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict50}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict50}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict51}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict51}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %post %{dict52}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun %{dict52}
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %files %{dict0}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict0}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict0}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict0}.*
 
 %files %{dict1}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict1}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict1}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict1}.*
 
 %files %{dict2}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict2}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict2}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict2}.*
 
 %files %{dict3}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict3}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict3}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict3}.*
 
 %files %{dict4}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict4}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict4}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict4}.*
 
 %files %{dict5}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict5}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict5}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict5}.*
 
 %files %{dict6}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict6}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict6}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict6}.*
 
 %files %{dict7}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict7}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict7}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict7}.*
 
 %files %{dict8}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict8}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict8}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict8}.*
 
 %files %{dict9}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict9}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict9}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict9}.*
 
 #%files %{dict10}
@@ -1618,12 +1512,12 @@ fi
 
 %files %{dict11}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict11}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict11}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict11}.*
 
 %files %{dict12}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict12}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict12}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict12}.*
 
 #%files %{dict13}
@@ -1638,12 +1532,12 @@ fi
 
 %files %{dict15}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict15}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict15}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict15}.*
 
 %files %{dict16}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict16}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict16}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict16}.*
 
 #%files %{dict17}
@@ -1653,12 +1547,12 @@ fi
 
 %files %{dict18}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict18}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict18}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict18}.*
 
 %files %{dict19}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict19}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict19}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict19}.*
 
 #%files %{dict20}
@@ -1673,32 +1567,32 @@ fi
 
 %files %{dict22}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict22}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict22}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict22}.*
 
 %files %{dict23}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict23}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict23}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict23}.*
 
 %files %{dict24}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict24}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict24}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict24}.*
 
 %files %{dict25}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict25}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict25}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict25}.*
 
 %files %{dict26}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict26}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict26}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict26}.*
 
 %files %{dict27}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict27}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict27}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict27}.*
 
 #%files %{dict28}
@@ -1708,107 +1602,107 @@ fi
 
 %files %{dict29}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict29}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict29}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict29}.*
 
 %files %{dict30}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict30}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict30}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict30}.*
 
 %files %{dict31}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict31}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict31}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict31}.*
 
 %files %{dict32}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict32}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict32}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict32}.*
 
 %files %{dict33}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict33}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict33}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict33}.*
 
 %files %{dict34}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict34}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict34}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict34}.*
 
 %files %{dict35}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict35}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict35}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict35}.*
 
 %files %{dict36}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict36}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict36}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict36}.*
 
 %files %{dict37}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict37}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict37}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict37}.*
 
 %files %{dict38}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict38}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict38}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict38}.*
 
 %files %{dict39}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict39}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict39}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict39}.*
 
 %files %{dict40}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict40}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict40}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict40}.*
 
 %files %{dict41}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict41}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict41}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict41}.*
 
 %files %{dict42}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict42}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict42}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict42}.*
 
 %files %{dict43}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict43}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict43}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict43}.*
 
 %files %{dict44}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict44}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict44}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict44}.*
 
 %files %{dict45}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict45}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict45}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict45}.*
 
 %files %{dict46}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict46}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict46}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict46}.*
 
 %files %{dict47}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict47}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict47}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict47}.*
 
 %files %{dict48}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict48}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict48}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict48}.*
 
 %files %{dict49}
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict49}.dictconf
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/%{dictname}-%{dict49}.dictconf
 %{_datadir}/dictd/%{dictname}_%{dict49}.*
 
 #%files %{dict50}
