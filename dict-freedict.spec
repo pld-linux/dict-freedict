@@ -193,6 +193,9 @@ Source51:	http://freedict.sourceforge.net/download/linux/%{dict51}.tar.gz
 URL:		http://www.freedict.de/
 BuildRequires:	dictfmt
 BuildRequires:	dictzip
+%if "%(locale -a | grep '^en_IN.utf8$')" == ""
+BuildRequires:	glibc-localedb-all
+%endif
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
