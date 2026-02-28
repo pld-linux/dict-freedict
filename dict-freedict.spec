@@ -74,7 +74,7 @@ Summary:	The free bilingual dictionaries for dictd
 Summary(pl.UTF-8):	Darmowe dwujęzykowe słowniki dla dictd
 Name:		dict-%{dictname}
 Version:	20030508
-Release:	4
+Release:	5
 License:	GPL
 Group:		Applications/Dictionaries
 # also at ftp://ftp.sourceforge.net/pub/sourceforge/freedict/ if following wouldn't work
